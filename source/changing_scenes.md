@@ -39,13 +39,7 @@ Now you can change scenes using one of two ways:
 ```{admonition} Note
 :class: Note
 
-Use this way if scene you change to don't have any dialogue.
-```
-
-```{admonition} Tip
-:class: Tip
-
-You can use it also if scene you change to don't start from dialogue or always start from default dialogue.
+Use this way if scene you change to doesn't have any **Dialogues** Nodes.
 ```
 
 ```gdscript
@@ -54,23 +48,17 @@ Rakugo.load_scene("scene_id", force_reload = false)
 
 ### Jump
 
-:::{tabbed} In **Dialogue** Node
+```{admonition} Tip
+:class: Tip
 
-```gdscript
-jump("scene_id", "dialogue_node_name", "dialogue_event")
+[You can read more about `jump()` here](dialogue_node.html#jumping-between-dialogue-events).
 ```
 
-:::
+```{admonition} Note
+:class: Note
 
-:::{tabbed} In other Node
-
-```gdscript
-Rakugo.jump("scene_id", "dialogue_node_name", "dialogue_event")
+Use this way if scene you change to has any **Dialogues** Nodes.
 ```
-
-:::
-
-If you want play default dialogue event from default Dialogue node in scene you are changing to then you can skip second and third arguments like this
 
 ```gdscript
 jump("scene_id", "", "")

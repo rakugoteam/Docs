@@ -8,6 +8,8 @@ __pycache__
 .vscode/
 *.mo
 
+workspace.code-workspace
+
 # Finder (macOS) makes these automatically.
 .DS_Store
 __MACOSX
