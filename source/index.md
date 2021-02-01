@@ -28,4 +28,5 @@ maxdepth: 2
 caption: Tutorials
 ---
 project_setup.md
+changing_scenes.md
 ```
