@@ -33,11 +33,18 @@ release = '3.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'recommonmark',
+    'myst_parser',
     'gdscript',
     'sphinx_tabs.tabs',
     'sphinx_search.extension',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.doctest',
+    'sphinx.ext.coverage',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.ifconfig',
+    'sphinx_markdown_tables',
 ]
+
 
 source_suffix = {
     '.md': 'markdown',

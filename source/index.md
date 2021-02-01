@@ -2,7 +2,15 @@
 
 ## This are Docs for Rakugo Framework
 
-### this is work in progress
+```{admonition} Note
+:class: note
+
+This is work in progress
+```
+
+```gdscript
+print("GDScriptLexer test")
+```
 
 ![](_images/the_question2.png)
 
@@ -13,3 +21,11 @@ toolset for narrative-based games on
 Simplify your project, if it is a visual novel,
 point and click, RPG, interactive text game or
 many other styles and blends of styles.
+
+```{toctree}
+---
+maxdepth: 2
+caption: Tutorials
+---
+project_setup.md
+```
