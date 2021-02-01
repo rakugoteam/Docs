@@ -8,10 +8,6 @@
 This is work in progress
 ```
 
-```gdscript
-print("GDScriptLexer test")
-```
-
 ![](_images/the_question2.png)
 
 Inspired by [Ren'Py](https://www.renpy.org),
@@ -28,5 +24,6 @@ maxdepth: 2
 caption: Tutorials
 ---
 project_setup.md
+dialogue_node.md
 changing_scenes.md
 ```
