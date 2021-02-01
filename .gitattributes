@@ -1,0 +1,2 @@
+# Properly detect languages on GitHub
+*.md linguist-detectable=true
