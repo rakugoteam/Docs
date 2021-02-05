@@ -60,14 +60,9 @@ There are some obsolete options that will be fully removed in a future update.
 
 ### Basic Settings
 
-- _rakugo/game/scenes/scene_links_ - this setting tells rakugo where
-- the resources used by `Rakugo.SceneLoader.load_scene()` func are for easier scene changes.
-- _rakugo/game/text/markup_ - markup langue used in dialogue, Rakugo currently supports:
-  - renpy (simplified due to godot limitations),
-  - bbcode (with values in `<>`),
-  - markdown( + bbcode),
-  - markdown_simple( - bbcode)
+- _rakugo/game/scenes/scene_links_ - this setting tells rakugo where is [SceneLinks resource, more about it here](changing_scenes.md).
+- _rakugo/game/text/markup_ - markup langue used in dialogue [more markup it here](text.md)
 - _rakugo/saves/test_mode_ - if set true, save files will be saved as
   text files in your project folder for ease of testing. Set it to false before export.
-  _rakugo/saves/save_folder_ - it is the path for the project's save folder.
+- _rakugo/saves/save_folder_ - it is the path for the project's save folder.
   Before exporting, change it to start from _user://_ instead of _res://_

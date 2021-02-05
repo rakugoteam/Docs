@@ -2,12 +2,6 @@
 
 ## This are Docs for Rakugo Framework
 
-```{admonition} Note
-:class: note
-
-This is work in progress
-```
-
 ![](_images/the_question2.png)
 
 Inspired by [Ren'Py](https://www.renpy.org),
@@ -25,5 +19,6 @@ caption: Tutorials
 ---
 project_setup.md
 dialogue_node.md
+text.md
 changing_scenes.md
 ```
