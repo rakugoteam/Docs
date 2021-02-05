@@ -1,7 +1,7 @@
 # Text
 
-In **Dialogue** node you can use one of supported markups with functions: `say()`, `ask()` and `menu()`. You can use it in ui also [here how]().
-You can set default markup in [**ProjectSettings**](project_setup.html#Basic%20Settings).
+In **Dialogue** node you can use one of supported markups with functions: `say()`, `ask()` and `menu()`. You can use it in ui also [here how](#use-markup-in-ui).
+You can set default markup in [**ProjectSettings**](project_setup.html#basic-settings).
 
 ## Reference
 
