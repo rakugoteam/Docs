@@ -106,6 +106,32 @@ You can set default markup in [**ProjectSettings**](project_setup.html#basic-set
 
 :::
 
+## Escape Characters
+
+You can use `\` (backslash) in text as escape character.
+Its (mostly) _turns off_ markup for character after it.
+
+- `\"` (backslash-doublequote)
+  Includes a doublequote in a double-quoted string.
+- `\'` (backslash-quote)
+  Includes a single quote in a single-quoted string.
+- `\n` (backslash-n)
+  Includes a newline character in the text.
+- `\\` (backslash-backslash)
+  Includes a backslash character in the text.
+- `\[` (backslash-left bracket)
+  Includes a left bracket character in the text.
+- `\]` (backslash-right bracket)
+  Includes a right bracket character in the text.
+- `\{` (backslash-left brace)
+  Includes a left brace character in the text.
+- `\}` (backslash-right brace)
+  Includes a right brace character in the text.
+- `\<` (backslash-mathematical minority sign)
+  Includes a mathematical minority sign character in the text.
+- `\>` (backslash-mathematical majority sign)
+  Includes a mathematical majority sign character in the text.
+
 ## Built-in color names
 
 List of valid color names for use with:
