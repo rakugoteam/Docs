@@ -345,7 +345,10 @@ You can use `tool` keyword to update text preview in editor, but Rakugo text pas
 ```gdscript
 extends RichTextLabel
 
+# this line add multiline text editor for value in Inspector
+export(String, MULTILINE) var rakugo_text := "text to parse"
+
 func _ready() -> void:
 	bbcode_enabled = true
-    bbcode_text = Rakugo.parse_rich_text("text to parse")
+    bbcode_text = Rakugo.parse_rich_text(rakugo_text)
 ```
