@@ -1,6 +1,6 @@
 # Dialogue and Narration
 
-Functions (called _statements_) listed below you should use them as part of [dialogue event](dialogue_node.md#create-dialogue-event).
+Functions (called _statements_) listed below you should use them as part of [dialogue event](dialogue_node.html#create-dialogue-event).
 
 ```{admonition} Note
 :class: Note
