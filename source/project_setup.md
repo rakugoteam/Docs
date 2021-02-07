@@ -48,7 +48,7 @@ To change game settings for your project, select _Project > Project Settings_
 
 ![](_images/project_setup/03.png)
 
-here is a new Rakugo category for the add-on content.
+Here is a new Rakugo category for the add-on content.
 There are some obsolete options that will be fully removed in a future update.
 
 ![](_images/project_setup/04.png)
@@ -57,12 +57,47 @@ There are some obsolete options that will be fully removed in a future update.
 
 - _rakugo/game/info/credits_
 - _rakugo/editor/debug_
+- _rakugo/default/gui/theme_
 
-### Basic Settings
+### Game Settings
 
-- _rakugo/game/scenes/scene_links_ - this setting tells rakugo where is [SceneLinks resource, more about it here](changing_scenes.md).
+- _rakugo/game/info/version_ - current version of your game
 - _rakugo/game/text/markup_ - markup langue used in dialogue [more markup it here](text.md)
+
+- _rakugo/game/scenes/scene_links_ - this setting tells rakugo where is [SceneLinks resource, more about it here](changing_scenes.md). This can be use for dlcs and mods.
+- _rakugo/game/scenes/force_reload_ - should rakugo force reload scene on jump between dialogue events
+- _rakugo/game/store/rollback_steps_ - how many rollback steps can be done
+- _rakugo/game/store/history_length_ - how long history log is displayed
+
+### Default Functions Arguments Settings
+
+#### Narrator
+
+Character used when `say()` is called with `character_tag = null`.
+
+- _rakugo/default/narrator/name_
+- _rakugo/default/narrator/color_
+
+#### Delays
+
+- _rakugo/default/delays/typing_effect_delay_ - time between _typing_ next letter when `typing_effect = true`
+- _rakugo/default/delays/typing_effect_punctuation_factor_ - how long wait after punctuation before continue _typing_ effect
+- _rakugo/default/delays/auto_mode_delay_ - how long does the step take on _auto mode_
+- _rakugo/default/delays/skip_delay_ - how long does the step take on _skip mode_
+
+#### Statements
+
+- _rakugo/default/statements/default_say_parameters_ - default additional parameters for `say()` statement
+- _rakugo/default/statements/default_ask_parameters_ - default additional parameters for `ask()` statement
+- _rakugo/default/statements/default_show_parameters_ - default additional parameters for `show()` statement
+
+### Save Settings
+
 - _rakugo/saves/test_mode_ - if set true, save files will be saved as
   text files in your project folder for ease of testing. Set it to false before export.
 - _rakugo/saves/save_folder_ - it is the path for the project's save folder.
   Before exporting, change it to start from _user://_ instead of _res://_
+- _rakugo/saves/save_screen_layout_ - how to displays saves in pause menu,
+  there are 2 build modes for this:
+  - _save_pages_ - use grid and pages, similar to **Ren'Py** way of displaying saves
+  - _save_list_ - use vertical list of saves, similar to **RPGMaker** way of displaying saves
