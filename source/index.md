@@ -15,7 +15,7 @@ many other styles and blends of styles.
 ```{toctree}
 ---
 maxdepth: 2
-caption: Tutorials
+caption: Topics
 ---
 project_setup.md
 dialogue_node.md
