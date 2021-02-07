@@ -18,7 +18,7 @@ say("character_tag", "Text to say by character.", {})
 
 Args:
 
-1. Tag of character set when you create character, if `null` then it will use default [Narrator](project_setup.md#Narrator)
+1. Tag of character set when you create character, if `null` then it will use default [Narrator](project_setup.html#Narrator)
 2. Text to be sed by character it can use [markup](text.md)
 3. Additional parameters in from of Dictionary, default empty.
    Build in additional parameters:

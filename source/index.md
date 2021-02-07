@@ -19,6 +19,7 @@ caption: Tutorials
 ---
 project_setup.md
 dialogue_node.md
+dialogue.md
 text.md
 changing_scenes.md
 ```
