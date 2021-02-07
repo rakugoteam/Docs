@@ -350,8 +350,7 @@ Where `freq` is the number of full rainbow cycles per second,
 
 ## Use Markup in UI
 
-```{admonition} Note
-:class: note
+```{note}
 
 This can change in future versions.
 ```
@@ -362,8 +361,7 @@ You only need set `enable_bbcode` to `true`.
 
 If you want to use other markup with it add to it script like this:
 
-```{admonition} Note
-:class: note
+```{note}
 
 You can use `tool` keyword to update text preview in editor, but Rakugo text passer don't work well with it, so we don't recommend using it for now.
 ```

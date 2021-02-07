@@ -1,7 +1,6 @@
 # Dialogue Node
 
-```{admonition} Note
-:class: note
+```{note}
 
 Scene with dialogue need to be added to [SceneLinks](changing_scenes.md) to works
 ```
@@ -12,8 +11,7 @@ To add new Node to scene you can clicking on plus icon or **A + Ctrl**.
 
 The window for choosing the type of node will appear, type _dialogue_ (or part of it) in the search box to find it easier and click on it.
 
-```{admonition} Tip
-:class: Tip
+```{tip}
 
 You can click on the star icon to add it to your favorite nodes, for easier access in the future.
 ```
@@ -24,8 +22,7 @@ Now click the _Create_ button at bottom of this window.
 
 ## Setup Dialogue for Editing
 
-```{admonition} Note
-:class: note
+```{note}
 
 You should change the name of the **Dialogue** node, as there will likely be many nodes of this type in scene.
 To do this double click on its name in scene hierarchy.
@@ -42,8 +39,7 @@ The Create Script window will appear.
 
 Change **Template** to _Empty_.
 
-```{admonition} Note
-:class: note
+```{note}
 
 By default path to save script is set to the same folder as the scene and the name of script is the same as the node.
 ```
@@ -52,8 +48,7 @@ The center Godot editor window will switch to script editor.
 
 ![](_images/dialogue_node/05.png)
 
-```{admonition} Tip
-:class: Tip
+```{tip}
 
 You can always change the mode of the editor center by clicking on the icons in the top center of the window.
 ```
@@ -85,8 +80,7 @@ Look at the _FirstDialogue_ node _Inspector_ tab.
 2. Set **Auto Start** to true if this is dialogue from which Scene should by default
 3. Set this to true if there are important changes in this dialogue between version of your game.
 
-```{admonition} Warning
-:class: warning
+```{warning}
 
 On one Scene can be only one **Dialogue** node with `auto_start = true`.
 ```

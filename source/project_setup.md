@@ -16,8 +16,7 @@ This part will tell you how to start with new Rakugo Project.
 
 ![](_images/project_setup/01.png)
 
-```{admonition} Warning
-:class: warning
+```{warning}
 
 Godot will load the Rakugo template, but there is a known, easy to fix issue.
 Due to how Godot 3.x currently loads add-ons, it will not start Rakugo correctly the first time.
@@ -27,8 +26,7 @@ The shortcut for closing a project is **Ctrl + Shift + Q**.
 
 ## Project Structure
 
-```{admonition} Note
-:class: Note
+```{note}
 
 The FileSystem tab is your main hub, should only use this tab to change names or move files for your project.
 ```

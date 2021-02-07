@@ -4,8 +4,7 @@
 
 If you want to change scene in game first you have to add it to **SceneLinks** file.
 
-```{admonition} Note
-:class: note
+```{note}
 
 Main scene of your game also need to be in *SceneLinks*
 ```
@@ -36,8 +35,7 @@ Now you can change scenes using one of two ways:
 
 ### Load_Scene
 
-```{admonition} Note
-:class: Note
+```{note}
 
 Use this way if scene you change to doesn't have any **Dialogues** Nodes.
 ```
@@ -48,14 +46,12 @@ Rakugo.load_scene("scene_id", force_reload = false)
 
 ### Jump
 
-```{admonition} Tip
-:class: Tip
+```{tip}
 
 [You can read more about `jump()` here](dialogue_node.html#jumping-between-dialogue-events).
 ```
 
-```{admonition} Note
-:class: Note
+```{note}
 
 Use this way if scene you change to has any **Dialogues** Nodes.
 ```
