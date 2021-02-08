@@ -69,6 +69,8 @@ There are some obsolete options that will be fully removed in a future update.
 
 ### Default Functions Arguments Settings
 
+![](_images/project_setup/05.png)
+
 #### Narrator
 
 Character used when `say()` is called with `character_tag = null`.
@@ -90,6 +92,8 @@ Character used when `say()` is called with `character_tag = null`.
 - _rakugo/default/statements/default_show_parameters_ - default additional parameters for `show()` statement
 
 ### Save Settings
+
+<!-- todo add screen shot -->
 
 - _rakugo/saves/test_mode_ - if set true, save files will be saved as
   text files in your project folder for ease of testing. Set it to false before export.

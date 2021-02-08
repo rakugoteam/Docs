@@ -52,7 +52,7 @@ Use this example character in dialogue:
 say("cool", "I'm cool :sunglasses: Developer")
 ```
 
-<!-- ![](add screen shot) -->
+<!-- todo add screen shot -->
 
 ## Ask Statement
 
@@ -79,7 +79,8 @@ onready var player_ch = Rakugo.define_character("Player-kun", "player", Color.aq
 func first_dialogue():
 	start_event("first_dialogue")
 
-	say(null, "What is your name? (default: {i}<player.name>{/i}.)", {"typing":false})
+  # this example use markdown as markup
+	say(null, "What is your name? (default: _<player.name>_.)", {"typing":false})
 
 	var player_name = ask("", {"placeholder": "Player Name"})
 
@@ -91,5 +92,9 @@ func first_dialogue():
 ```
 
 ```{note}
-What are `cond()` and `is_active()` is explained.
+<!-- add link -->
+What are `cond()` and `is_active()` is explained here.
 ```
+
+This code give us this result in visual novel template:
+![](_images/dialogue/ask.png)

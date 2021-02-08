@@ -132,6 +132,30 @@ Its (mostly) _turns off_ markup for character after it.
 - `\>` (backslash-mathematical majority sign)
   Includes a mathematical majority sign character in the text.
 
+## Emojis
+
+To see what are build in emojis open **Emoji Panel**.
+
+![](_images/text/emoji01.png)
+
+This window will popup:
+
+![](_images/text/emoji-panel.png)
+
+Can set used markup.
+Filter to find emoji.
+When clicked on emoji it will copy it with chosen markup to system clipboard. This can be pasted into Dialogue.
+
+For example:
+
+````gdscript
+
+```# this example uses markdown as markup
+say("cool", "I'm cool :sunglasses: Developer")
+````
+
+<!-- todo add screen shot -->
+
 ## Built-in color names
 
 List of valid color names for use with:
@@ -376,3 +400,5 @@ func _ready() -> void:
 	bbcode_enabled = true
     bbcode_text = Rakugo.parse_rich_text(rakugo_text)
 ```
+
+<!-- todo add screen shot ? -->
