@@ -148,11 +148,21 @@ When clicked on emoji it will copy it with chosen markup to system clipboard. Th
 
 For example:
 
-````gdscript
+:::{tabbed} markdown
 
-```# this example uses markdown as markup
+```gdscript
 say("cool", "I'm cool :sunglasses: Developer")
-````
+```
+
+:::
+
+:::{tabbed} bbcode / renpy
+
+```gdscript
+say("cool", "I'm cool [:sunglasses:] Developer")
+```
+
+:::
 
 <!-- todo add screen shot -->
 
