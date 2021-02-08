@@ -164,7 +164,7 @@ say("cool", "I'm cool [:sunglasses:] Developer")
 
 :::
 
-<!-- todo add screen shot -->
+<!-- <p style="color:todo">todo</p> add screen shot -->
 
 ## Built-in color names
 
@@ -186,21 +186,21 @@ List of valid color names for use with:
 
 :::
 
-- aqua
-- black
-- blue
-- fuchsia
-- gray
-- green
-- lime
-- maroon
-- navy
-- purple
-- red
-- silver
-- teal
-- white
-- yellow
+- <p style="color:aqua">aqua</p>
+- <p style="color:black">black</p>
+- <p style="color:blue">blue</p>
+- <p style="color:fuchsia">fuchsia</p>
+- <p style="color:gray">gray</p>
+- <p style="color:green">green</p>
+- <p style="color:lime">lime</p>
+- <p style="color:maroon">maroon</p>
+- <p style="color:navy">navy</p>
+- <p style="color:purple">purple</p>
+- <p style="color:red">red</p>
+- <p style="color:silver">silver</p>
+- <p style="color:teal">teal</p>
+- <p style="color:white">white</p>
+- <p style="color:yellow">yellow</p>
 
 ## Hexadecimal color codes
 
@@ -411,4 +411,4 @@ func _ready() -> void:
     bbcode_text = Rakugo.parse_rich_text(rakugo_text)
 ```
 
-<!-- todo add screen shot ? -->
+<!-- <p style="color:todo">todo</p> add screen shot ? -->
