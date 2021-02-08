@@ -11,15 +11,15 @@ Main scene of your game also need to be in *SceneLinks*
 
 To do that open _Rakugo_ menu and choose _SceneLinks_
 
-![](_images/changing_scene/01.png)
+![](_images/changing_scene/scene-links01.png)
 
 Now this window will appear:
 
-![](_images/changing_scene/02.png)
+![](_images/changing_scene/scene-links-editor.png)
 
 Click on _Add New Scene Link_ button and new entery will appear.
 
-![](_images/changing_scene/03.png)
+![](_images/changing_scene/sl-new-entery.png)
 
 1. Place to set path to scene
 2. List of current opened scenes to choose path from

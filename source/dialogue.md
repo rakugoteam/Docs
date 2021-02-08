@@ -4,7 +4,7 @@ Functions (called _statements_) listed below you should use them as part of [dia
 
 ```{note}
 
-You can call this func for Rakugo like: `Rakugo.say()`, but we don't recommend this.
+You can call this functions from Rakugo like: `Rakugo.say()`, but we don't recommend this.
 ```
 
 ## Say Statement
@@ -18,8 +18,8 @@ say("character_tag", "Text to say by character.", parameters)
 Args:
 
 1. Tag of character set when you create character, if `null` then it will use default [Narrator](project_setup.html#Narrator)
-2. Text to be sed by character it can use [markup](text.md)
-3. Additional parameters in from of dictionary, default empty.
+1. Text to be sed by character it can use [markup](text.md)
+1. Additional parameters in from of dictionary, default empty.
 
 Build in additional parameters:
 
@@ -98,3 +98,23 @@ What are `cond()` and `is_active()` is explained here.
 
 This code give us this result in visual novel template:
 ![](_images/dialogue/ask.png)
+
+## Notify
+
+This can be used to notify player of consequences of their decisions.
+
+```gdscript
+notify("notification text", parameters)
+```
+
+1. Text to be sed by character it can use [markup](text.md)
+1. Additional parameters in from of dictionary, default empty.
+   There are no build in parameters for this statement.
+
+For example:
+
+```gdscript
+notify("[elie.name] will remember this.")
+```
+
+<!-- todo add screen shot -->

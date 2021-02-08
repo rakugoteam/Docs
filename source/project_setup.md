@@ -14,7 +14,7 @@ This part will tell you how to start with new Rakugo Project.
 2. Download [Rakugo](https://rakugoteam.github.io/download/) from official sources.
 3. Open Godot and use the Import button to your right, then browse your files to find the Rakugo ZIP.
 
-![](_images/project_setup/01.png)
+![](_images/project_setup/import-project.png)
 
 ```{warning}
 
@@ -31,7 +31,7 @@ The shortcut for closing a project is **Ctrl + Shift + Q**.
 The FileSystem tab is your main hub, should only use this tab to change names or move files for your project.
 ```
 
-![](_images/project_setup/02.png)
+![](_images/project_setup/file-system.png)
 
 - _addons/Rakugo/_ - the core code of Rakugo. You should leave this alone unless you know what you're doing.
 - _fonts_ - fonts assets used by GUI for text displays.
@@ -44,12 +44,12 @@ The FileSystem tab is your main hub, should only use this tab to change names or
 
 To change game settings for your project, select _Project > Project Settings_
 
-![](_images/project_setup/03.png)
+![](_images/project_setup/project-settings.png)
 
 Here is a new Rakugo category for the add-on content.
 There are some obsolete options that will be fully removed in a future update.
 
-![](_images/project_setup/04.png)
+![](_images/project_setup/project-settings-window.png)
 
 ### Obsolete Settings
 
@@ -69,7 +69,7 @@ There are some obsolete options that will be fully removed in a future update.
 
 ### Default Functions Arguments Settings
 
-![](_images/project_setup/05.png)
+![](_images/project_setup/project-settings-defaults.png)
 
 #### Narrator
 
