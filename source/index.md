@@ -17,9 +17,10 @@ many other styles and blends of styles.
 maxdepth: 2
 caption: Topics
 ---
-project_setup.md
-dialogue_node.md
-dialogue.md
-text.md
-changing_scenes.md
+topics/project_setup.md
+topics/dialogue_node.md
+topics/dialogue.md
+topics/text.md
+topics/menus.md
+topics/changing_scenes.md
 ```

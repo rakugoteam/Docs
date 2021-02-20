@@ -136,11 +136,11 @@ Its (mostly) _turns off_ markup for character after it.
 
 To see what are build in emojis open **Emoji Panel**.
 
-![](_images/text/emoji01.png)
+![](text/emoji01.png)
 
 This window will popup:
 
-![](_images/text/emoji-panel.png)
+![](text/emoji-panel.png)
 
 Can set used markup.
 Filter to find emoji.
@@ -255,7 +255,7 @@ Five customizable effects are provided out of the box.
 
 ### Wave
 
-![](_images/text/wave.png)
+![](text/wave.png)
 
 Wave makes the text go up and down. Tag format is:
 
@@ -281,7 +281,7 @@ up and down.
 
 ### Tornado
 
-![](_images/text/tornado.png)
+![](text/tornado.png)
 
 Tornado makes the text move around in a circle. Tag format is:
 
@@ -307,7 +307,7 @@ text moves in a circle.
 
 ### Shake
 
-![](_images/text/shake.png)
+![](text/shake.png)
 
 Shake makes the text shake. Tag format is:
 
@@ -331,7 +331,7 @@ Where`rate` controls how fast the text shakes, `level` controls how far the text
 
 ### Fade
 
-![](_images/text/fade.png)
+![](text/fade.png)
 
 Fade creates a fade effect over the text that is not animated. Tag
 format is:
@@ -358,7 +358,7 @@ fade out take place.
 
 ### Rainbow
 
-![](_images/text/rainbow.png)
+![](text/rainbow.png)
 
 Rainbow gives the text a rainbow color that changes over time. Tag
 format is:

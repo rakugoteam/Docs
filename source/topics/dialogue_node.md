@@ -7,7 +7,7 @@ Scene with dialogue need to be added to [SceneLinks](changing_scenes.md) to work
 
 To add new Node to scene you can clicking on plus icon or **A + Ctrl**.
 
-![](_images/dialogue_node/add-node.png)
+![](dialogue_node/add-node.png)
 
 The window for choosing the type of node will appear, type _dialogue_ (or part of it) in the search box to find it easier and click on it.
 
@@ -16,7 +16,7 @@ The window for choosing the type of node will appear, type _dialogue_ (or part o
 You can click on the star icon to add it to your favorite nodes, for easier access in the future.
 ```
 
-![](_images/dialogue_node/add-node-window.png)
+![](dialogue_node/add-node-window.png)
 
 Now click the _Create_ button at bottom of this window.
 
@@ -31,11 +31,11 @@ To do this double click on its name in scene hierarchy.
 To write our own dialogue in it, you to first extend it.
 To do it right click on node and choose _Extend Script_.
 
-![](_images/dialogue_node/extend-script.png)
+![](dialogue_node/extend-script.png)
 
 The Create Script window will appear.
 
-![](_images/dialogue_node/extend-script-window.png)
+![](dialogue_node/extend-script-window.png)
 
 Change **Template** to _Empty_.
 
@@ -46,7 +46,7 @@ By default path to save script is set to the same folder as the scene and the na
 
 The center Godot editor window will switch to script editor.
 
-![](_images/dialogue_node/script-tab.png)
+![](dialogue_node/script-tab.png)
 
 ```{tip}
 
@@ -74,7 +74,7 @@ func sample():
 
 Look at the _FirstDialogue_ node _Inspector_ tab.
 
-![](_images/dialogue_node/dialogue-node.png)
+![](dialogue_node/dialogue-node.png)
 
 1. Set **Default Starting Event** to dialogue event name to start from by default
 2. Set **Auto Start** to true if this is dialogue from which Scene should by default

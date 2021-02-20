@@ -1,6 +1,6 @@
 # Menus in Game
 
-## Menu Statement in dialogue
+## Menu Statement in Dialogue
 
 ```gdscript
 var choice = menu(array_of_choices, parameters)
@@ -46,4 +46,12 @@ var choice = menu([
 
 ## Custom Menus
 
-### Graphical Menus
+To crate custom menu use **Container** node like:
+
+- **VBoxContainer**
+- **HBoxContainer**
+- **GridContainer**
+
+Add some **Buttons** to **Container**:
+
+![](menus/button_types.png)

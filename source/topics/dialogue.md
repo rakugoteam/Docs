@@ -97,7 +97,7 @@ What are `cond()` and `is_active()` is explained here.
 ```
 
 This code give us this result in visual novel template:
-![](_images/dialogue/ask.png)
+![](dialogue/ask.png)
 
 ## Notify
 
