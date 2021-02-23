@@ -57,6 +57,47 @@ To crate custom menu use **Container** node like:
 - **HBoxContainer**
 - **GridContainer**
 
+```{tip}
+Use **Layout** menu to set layout of container
+![](menus/layout.gif)
+```
+
 Add some **Buttons** to **Container**:
 
 ![](menus/button_types.png)
+
+```{tip}
+Use `Ctrl + D` shortcut to duplicate chosen node.
+```
+
+![](menus/buttons.gif)
+
+Then click on button and open **Node** tab (by default next to **Inspector** tab).
+Go to sub-tab **Signals** and choose `pressed()`.
+
+![](menus/signal-p1.gif)
+
+Now this window will show up.
+
+![](menus/signal-p2.png)
+
+1. Choose to which node connect signal (only nodes with script)
+1. Name of function that will called on this signal
+1. Click button **Connect** to apply this changes
+
+Apply this changes will:
+
+- add icon that this button has connected signal
+
+![](menus/signal-p3.png)
+
+- add new empty function to chosen node script
+
+![](menus/signal-p4.png)
+
+Edit body of this function how ever you want.
+
+```{note}
+Don't edit connected method name after it is created,
+it will break the connection.
+```
