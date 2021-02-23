@@ -59,15 +59,15 @@ You can always change the mode of the editor center by clicking on the icons in 
 
 ```gdscript
 func sample():
-    start_event("sample")
+  start_event("sample")
 
-    say(null, "This is sample of dialogue event.")
-    step() # stop func and waits for player interaction
+  say(null, "This is sample of dialogue event.")
+  step() # stop func and waits for player interaction
 
-    say(null, "Another line of dialogue.")
-    step()
+  say(null, "Another line of dialogue.")
+  step()
 
-    end_event()
+  end_event()
 ```
 
 ## Dialogue Node Inspector

@@ -164,7 +164,7 @@ say("cool", "I'm cool [:sunglasses:] Developer")
 
 :::
 
-<!-- <p style="color:todo">todo</p> add screen shot -->
+![](dialogue/say.png)
 
 ## Built-in color names
 
@@ -397,7 +397,8 @@ If you want to use other markup with it add to it script like this:
 
 ```{note}
 
-You can use `tool` keyword to update text preview in editor, but Rakugo text passer don't work well with it, so we don't recommend using it for now.
+You can use `tool` keyword to update text preview in editor,
+but Rakugo text passer don't work well with it, so we don't recommend using it for now.
 ```
 
 ```gdscript
@@ -411,4 +412,4 @@ func _ready() -> void:
     bbcode_text = Rakugo.parse_rich_text(rakugo_text)
 ```
 
-<!-- <p style="color:todo">todo</p> add screen shot ? -->
+![](text/RakugoTextLabel.png)

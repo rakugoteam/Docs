@@ -25,7 +25,12 @@ var choice = menu([
     ["A", "a", {}],
     ["B", "b", {}],
 ])
+```
 
+![](menus/dialogue_menu1.png)
+
+```gdscript
+# continuation of the previous script
 if cond(choice == 1):
 	if is_active():
         say(null, "You choose First choice")
@@ -34,7 +39,7 @@ elif cond(choice == 2):
 	if is_active():
         say(null, "You choose Second choice")
 
-say (null , "Choose second option.")
+say (null , "Choose another option.")
 var choice = menu([
     ["Only visible if \"A\" was chosen", 1, {"visible":choice == "a"}],
     ["Only visible if \"B\" was chosen", 2, {"visible":choice == "b"}],
@@ -42,7 +47,7 @@ var choice = menu([
 ])
 ```
 
-<!-- todo add screen shots -->
+![](menus/dialogue_menu2.png)
 
 ## Custom Menus
 

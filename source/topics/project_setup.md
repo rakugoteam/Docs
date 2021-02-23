@@ -59,6 +59,8 @@ There are some obsolete options that will be fully removed in a future update.
 
 ### Game Settings
 
+![](project_setup/project-settings-game.png)
+
 - _rakugo/game/info/version_ - current version of your game
 - _rakugo/game/text/markup_ - markup langue used in dialogue [more markup it here](text.md)
 
@@ -93,7 +95,7 @@ Character used when `say()` is called with `character_tag = null`.
 
 ### Save Settings
 
-<!-- todo add screen shot -->
+![](project_setup/project-settings-saves.png)
 
 - _rakugo/saves/test_mode_ - if set true, save files will be saved as
   text files in your project folder for ease of testing. Set it to false before export.

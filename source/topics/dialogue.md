@@ -42,7 +42,7 @@ Rakugo.define_character("Character Name", "character_tag", character_label_tag)
 For example:
 
 ```gdscript
-Rakugo.define_character("Cool Developer", "cool", Color.blue)
+Rakugo.define_character("Cool Developer", "cool", Color.aquamarine)
 ```
 
 Use this example character in dialogue:
@@ -52,7 +52,7 @@ Use this example character in dialogue:
 say("cool", "I'm cool :sunglasses: Developer")
 ```
 
-<!-- todo add screen shot -->
+![](dialogue/say.png)
 
 ## Ask Statement
 
@@ -107,14 +107,16 @@ This can be used to notify player of consequences of their decisions.
 notify("notification text", parameters)
 ```
 
-1. Text to be sed by character it can use [markup](text.md)
+<!-- 1. Text to be displayed it can use [markup](text.md) -->
+
+1. Text to be displayed
 1. Additional parameters in from of dictionary, default empty.
    There are no build in parameters for this statement.
 
 For example:
 
 ```gdscript
-notify("[elie.name] will remember this.")
+notify("Cool Developer will remember this.")
 ```
 
-<!-- todo add screen shot -->
+![](dialogue/notify.png)
