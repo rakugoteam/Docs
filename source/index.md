@@ -2,7 +2,7 @@
 
 ## This are Docs for Rakugo Framework
 
-![](_images/the_question2.png)
+![](index/the_question2.png)
 
 Inspired by [Ren'Py](https://www.renpy.org),
 Rakugo is a framework aimed at providing a better
@@ -23,4 +23,12 @@ topics/dialogue.md
 topics/text.md
 topics/menus.md
 topics/changing_scenes.md
+```
+
+```{toctree}
+---
+maxdepth: 2
+caption: Tutorials
+---
+tutorials/show_and_hide.md
 ```
