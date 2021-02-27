@@ -15,7 +15,7 @@ Node that handle displaying dialogue is **InGameGUI/DialoguePanel**.
 
 ![](styles_of_displaying_dialogue/dialogue_panel.png)
 
-## How This Works ?
+## How DialoguePanel Works ?
 
 If you look into it script you will see that 
 you only need to connect your node to signal `"say"`
