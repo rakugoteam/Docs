@@ -22,6 +22,7 @@ topics/dialogue_node.md
 topics/dialogue.md
 topics/text.md
 topics/menus.md
+topics/variables_and_conditions.md
 topics/changing_scenes.md
 ```
 
@@ -31,4 +32,5 @@ maxdepth: 2
 caption: Tutorials
 ---
 tutorials/show_and_hide.md
+tutorials/styles_of_displaying_dialogue.md
 ```

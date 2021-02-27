@@ -77,18 +77,18 @@ extends Dialogue
 onready var player_ch = Rakugo.define_character("Player-kun", "player", Color.aqua)
 
 func first_dialogue():
-	start_event("first_dialogue")
+  start_event("first_dialogue")
 
   # this example use markdown as markup
-	say(null, "What is your name? (default: _<player.name>_.)", {"typing":false})
+  say(null, "What is your name? (default: _<player.name>_.)", {"typing":false})
 
-	var player_name = ask("", {"placeholder": "Player Name"})
+  var player_name = ask("", {"placeholder": "Player Name"})
 
-	if cond(player_name != null):
-		if is_active():
-			player_ch.name = player_name
+  if cond(player_name != null):
+    if is_active():
+      player_ch.name = player_name
 
-	step()
+  step()
 ```
 
 ```{note}
