@@ -65,14 +65,14 @@ In GDScript normal functions conditions look like this:
 
 ```gdscript
 func some_function(param1, param2):
-    var local_var = 5
+  var local_var = 5
 
-    if param1 < local_var:
-        print(param1)
-    elif param2 > 5:
-        print(param2)
-    else:
-        print("Fail!")
+  if param1 < local_var:
+    print(param1)
+  elif param2 > 5:
+    print(param2)
+  else:
+    print("Fail!")
 ```
 
 But in Rakugo dialogue event conditions are a little bit more complicated.
