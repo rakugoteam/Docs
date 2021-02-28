@@ -49,7 +49,21 @@ func _on_HideTimer_timeout():
 ## Edit Original Script to use Parameters
 
 We need add some way to switch between dialogue displays,
-for this we will use parameters. 
+for this we will use parameters.
+
+````{note}
+In this tutorial I use only `style` parameter, but you can add and use whatever parameters you want.
+For example `pos` to set DialoguePanel position:
+
+```gdscript
+func _on_say(_character, _text, _parameters):
+  if _parameters.has("pos"):
+    rect_position = _parameters["pos"]
+    $HideTimer.stop()
+    show()
+
+```
+````
 
 ```gdscript
 extends PanelContainer
@@ -62,12 +76,14 @@ func _ready():
   Rakugo.connect("ask", self, "_on_ask")
 
 func _on_say(_character, _text, _parameters):
+  hide()
   if _parameters.has("style"):
 		if _parameters["style"] == style:
       $HideTimer.stop()
       show()
 
 func _on_ask(_default_answer, _parameters):
+  hide()
   if _parameters.has("style"):
 		if _parameters["style"] == style:
       $HideTimer.stop()
@@ -90,6 +106,7 @@ func default_style():
   say(null, "This text show in default dialogue style.", {"style": "default"})
   step()
 
+  end_event()
 ```
 
 To make it automatic edit **Project Settings**.
@@ -112,6 +129,30 @@ You can use `Ctrl + D` shortcut for this.
 ```
 
 Change node name and `style` value.
+In this example I will add DialoguePanel to top of screen.
 
+![](styles_of_displaying_dialogue/new_dp.gif)
 
+Change new DialoguePanel as you need.
 
+![](styles_of_displaying_dialogue/top_dp.gif)
+
+## Test it
+
+```gdscript
+extends Dialogue
+
+func default_style():
+  start_event("default_style")
+
+  say(null, "This text show in default dialogue style.")
+  step()
+
+  say(null, "This text show is show at top of the screen.", {"style": "top"})
+  step()
+
+  end_event()
+```
+Result:
+
+![](styles_of_displaying_dialogue/result.gif)
