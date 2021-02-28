@@ -1,18 +1,29 @@
 # Dialogue Node
 
 ```{note}
-
 Scene with dialogue need to be added to [SceneLinks](changing_scenes.md) to works
 ```
 
 To add new Node to scene you can clicking on plus icon or **A + Ctrl**.
+
+```{note}
+Dialogue Node can be add to any type of scene:
+- 2D (**Node2D**)
+- 3D (**Spatial**)
+- User Interface (**Control**)
+
+If scene has any **Control** node that is not a button, then make sure it's mouse filter is set to *Ignore*.
+Otherwise it can block step forward in Dialogue.
+It can be set in **Control** node Inspector.
+
+![](dialogue_node/mouse_filter.png)
+```
 
 ![](dialogue_node/add-node.png)
 
 The window for choosing the type of node will appear, type _dialogue_ (or part of it) in the search box to find it easier and click on it.
 
 ```{tip}
-
 You can click on the star icon to add it to your favorite nodes, for easier access in the future.
 ```
 
@@ -93,6 +104,8 @@ You can jump between dialogue events few different ways:
 
   ```gdscript
   jump("", "", "dialogue_event")
+  # or
+  start("dialogue_event")
   ```
 
 - jump to default dialogue event in other **Dialogue** node

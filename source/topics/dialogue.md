@@ -3,7 +3,6 @@
 Functions (called _statements_) listed below you should use them as part of [dialogue event](dialogue_node.html#create-dialogue-event).
 
 ```{note}
-
 You can call this functions from Rakugo like: `Rakugo.say()`, but we don't recommend this.
 ```
 
