@@ -85,15 +85,13 @@ func first_dialogue():
   var player_name = ask("", {"placeholder": "Player Name"})
 
   if cond(player_name != null):
-    if is_active():
-      player_ch.name = player_name
+    player_ch.name = player_name
 
   step()
 ```
 
 ```{note}
-<!-- add link -->
-What are `cond()` and `is_active()` is explained here.
+What is `cond()` is explained [here](variables_and_conditions.html#conditions).
 ```
 
 This code give us this result in visual novel template:

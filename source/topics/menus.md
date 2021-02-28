@@ -32,12 +32,10 @@ var choice = menu([
 ```gdscript
 # continuation of the previous script
 if cond(choice == 1):
-  if is_active():
-        say(null, "You choose First choice")
+  say(null, "You choose First choice")
 
 elif cond(choice == 2):
-  if is_active():
-        say(null, "You choose Second choice")
+  say(null, "You choose Second choice")
 
 say (null , "Choose another option.")
 var choice = menu([

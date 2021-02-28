@@ -79,29 +79,13 @@ But in Rakugo dialogue event conditions are a little bit more complicated.
 
 ```gdscript
 if cond(choice == 1):
-  if is_active():
-        say(null, "You choose First choice")
-
-elif cond(choice == 2):
-  if is_active():
-        say(null, "You choose Second choice")
-```
-
-````{warning}
-Don't change code with conditions in dialogue event to look like this will, it brake Rakugo:
-
-```gdscript
-if is_active():
-  if cond(choice == 1):
   say(null, "You choose First choice")
 
-  elif cond(choice == 2):
-    say(null, "You choose Second choice")
+elif cond(choice == 2):
+  say(null, "You choose Second choice")
 ```
-````
 
-Conditions in Rakugo are constructed form to parts.
-First is:
+Conditions in Rakugo are constructed like this:
 
 ```gdscript
 if cond(condition):
@@ -109,12 +93,4 @@ if cond(condition):
 
 This is like normal `if`, but for dialogue event.
 Can be also used with `elif`.
-
-Second is:
-
-```gdscript
-if is_active():
-```
-
-This used to make sure it works correctly with **rollback**, **skip** and **auto** features.
 
