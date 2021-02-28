@@ -1,0 +1,7 @@
+myst
+sphinx_rtd_theme
+myst_parser
+sphinx_panels
+linkify-it-py
+markdown-it-py
+mdit-py-plugins
