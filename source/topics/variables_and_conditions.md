@@ -43,20 +43,20 @@ var v3 = Vector3(1, 2, 3)
 With Rakugo it possible to define global variables that are automatically part of game save.
 
 ```gdscript
-Rakugo.StoreManager.set("variable_name", value)
+Rakugo.store.set("variable_name", value)
 ```
 
 This support all GDScript base types, but **not** `null`.
 To get null-like variable in Rakugo use `"nothing"`.
 
 ```gdscript
-Rakugo.StoreManager.set("null_variable", "nothing")
+Rakugo.store.set("null_variable", "nothing")
 ```
 
 Get global Rakugo variable value:
 
 ```gdscript
-var value_to_load = Rakugo.StoreManager.get("variable_name")
+var value_to_load = Rakugo.store.get("variable_name")
 ```
 
 ## Conditions
