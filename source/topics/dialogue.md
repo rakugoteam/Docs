@@ -67,7 +67,7 @@ var player_input = ask("default_answer", parameters)
 
 Additional parameters from visual novel template:
 
-- `placeholder` - text to display as hit for player, it will disappear if player start to provided input
+- `placeholder` - text to display as hit for player, it will hide if player start to provided any input
 
 Example of using ask to get player character name.
 

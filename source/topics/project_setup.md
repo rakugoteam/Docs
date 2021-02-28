@@ -65,7 +65,8 @@ There are some obsolete options that will be fully removed in a future update.
 - _rakugo/game/text/markup_ - markup langue used in dialogue [more markup it here](text.md)
 
 - _rakugo/game/scenes/scene_links_ - this setting tells rakugo where is [SceneLinks resource, more about it here](changing_scenes.md). This can be use for dlcs and mods.
-- _rakugo/game/scenes/force_reload_ - should rakugo force reload scene on jump between dialogue events
+- _rakugo/game/scenes/force_reload_ - should rakugo force reload scene on jump between dialogue events,
+  can fix some bugs if for example you have all game in one scene, like our *The Question* demo
 - _rakugo/game/store/rollback_steps_ - how many rollback steps can be done
 - _rakugo/game/store/history_length_ - how long history log is displayed
 
