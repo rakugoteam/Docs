@@ -1,7 +1,7 @@
 # This are Docs for Rakugo
 
 Inspired by [Ren'Py](https://www.renpy.org),
-Rakugo is a framework aimed at providing a better
+Rakugo is a project aimed at providing a better
 toolset for narrative-based games on
 [Godot](https://godotengine.org).
 
