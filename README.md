@@ -17,5 +17,13 @@ This docs are using:
     `python -m pip install -r requirements.txt`
 
 3. Build:
-    - Linux/Mac: `make html`
-    - Windows: `make.bat html`
+    - Linux/Mac:
+        ```bash
+        > python3 local_fix.py
+        > make html
+        ```
+    - Windows:
+        ```bat
+        > python3 local_fix.py
+        > make.bat html
+        ```
