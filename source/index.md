@@ -24,6 +24,7 @@ topics/text.md
 topics/menus.md
 topics/variables_and_conditions.md
 topics/changing_scenes.md
+topics/export.md
 ```
 
 ```{toctree}

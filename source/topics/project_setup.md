@@ -66,7 +66,7 @@ There are some obsolete options that will be fully removed in a future update.
 
 - _rakugo/game/scenes/scene_links_ - this setting tells rakugo where is [SceneLinks resource, more about it here](changing_scenes.md). This can be use for dlcs and mods.
 - _rakugo/game/scenes/force_reload_ - should rakugo force reload scene on jump between dialogue events,
-  can fix some bugs if for example you have all game in one scene, like our *The Question* demo
+  can fix some bugs if for example you have all game in one scene, like our _The Question_ demo
 - _rakugo/game/store/rollback_steps_ - how many rollback steps can be done
 - _rakugo/game/store/history_length_ - how long history log is displayed
 
@@ -98,10 +98,10 @@ Character used when `say()` is called with `character_tag = null`.
 
 ![](project_setup/project-settings-saves.png)
 
-- _rakugo/saves/test_mode_ - if set true, save files will be saved as
-  text files in your project folder for ease of testing. Set it to false before export.
+- _rakugo/saves/test_mode_ - if set `true`, save files will be saved as
+  text files in your project folder for ease of testing. Set it to `false` before export.
 - _rakugo/saves/save_folder_ - it is the path for the project's save folder.
-  Before exporting, change it to start from _user://_ instead of _res://_
+  Before exporting, change it to start to _user://_ instead of _res://_
 - _rakugo/saves/save_screen_layout_ - how to displays saves in pause menu,
   there are 2 build modes for this:
   - _save_pages_ - use grid and pages, similar to **Ren'Py** way of displaying saves
