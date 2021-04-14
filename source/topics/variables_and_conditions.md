@@ -35,7 +35,7 @@ var v3 = Vector3(1, 2, 3)
 ```
 
 ```{note}
-[More types are listed in godot docs.](https://docs.godotengine.org/en/stable/getting_started/scripting/gdscript/gdscript_basics.html#built-in-types)
+[More types are listed in godot docs.](https://docs.godotengine.org/en/stable/getting_started/scripting/gdscript/gdscript_basics/#built-in-types)
 ```
 
 ## Variables in Rakugo
