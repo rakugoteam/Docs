@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Jeremi360, Vassaref and contributors
+# This file is distributed under the same license as the Rakugo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Rakugo latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-14 12:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/topics/variables_and_conditions.md:1
+msgid "Variables and Conditions"
+msgstr ""
+
+#: ../../source/topics/variables_and_conditions.md:3
+msgid "Variables and Constans in GDScript"
+msgstr ""
+
+#: ../../source/topics/variables_and_conditions.md:5
+msgid ""
+"Variables are box with labels for values that **can** change. Constans "
+"are box with labels for values that **can't** change. In GDScript you can"
+" define new local variables and constans for script."
+msgstr ""
+
+#: ../../source/topics/variables_and_conditions.md:37
+msgid ""
+"[More types are listed in godot "
+"docs.](https://docs.godotengine.org/en/stable/getting_started/scripting/gdscript/gdscript_basics"
+"/#built-in-types)"
+msgstr ""
+
+#: ../../source/topics/variables_and_conditions.md:41
+msgid "Variables in Rakugo"
+msgstr ""
+
+#: ../../source/topics/variables_and_conditions.md:43
+msgid ""
+"With Rakugo it possible to define global variables that are automatically"
+" part of game save."
+msgstr ""
+
+#: ../../source/topics/variables_and_conditions.md:49
+msgid ""
+"This support all GDScript base types, but **not** `null`. To get null-"
+"like variable in Rakugo use `\"nothing\"`."
+msgstr ""
+
+#: ../../source/topics/variables_and_conditions.md:56
+msgid "Get global Rakugo variable value:"
+msgstr ""
+
+#: ../../source/topics/variables_and_conditions.md:62
+msgid "Conditions"
+msgstr ""
+
+#: ../../source/topics/variables_and_conditions.md:64
+msgid "In GDScript normal functions conditions look like this:"
+msgstr ""
+
+#: ../../source/topics/variables_and_conditions.md:78
+msgid "But in Rakugo dialogue event conditions are a little bit more complicated."
+msgstr ""
+
+#: ../../source/topics/variables_and_conditions.md:88
+msgid "Conditions in Rakugo are constructed like this:"
+msgstr ""
+
+#: ../../source/topics/variables_and_conditions.md:94
+msgid ""
+"This is like normal `if`, but for dialogue event. Can be also used with "
+"`elif`."
+msgstr ""
+

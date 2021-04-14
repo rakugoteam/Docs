@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Jeremi360, Vassaref and contributors
+# This file is distributed under the same license as the Rakugo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Rakugo latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-14 12:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/topics/changing_scenes.md:1
+msgid "Changing Scenes"
+msgstr ""
+
+#: ../../source/topics/changing_scenes.md:3
+msgid "Adding scene to SceneLinks"
+msgstr ""
+
+#: ../../source/topics/changing_scenes.md:5
+msgid ""
+"If you want to change scene in game first you have to add it to "
+"**SceneLinks** file."
+msgstr ""
+
+#: ../../source/topics/changing_scenes.md:7
+msgid "Main scene of your game also need to be in *SceneLinks*"
+msgstr ""
+
+#: ../../source/topics/changing_scenes.md:12
+msgid "To do that open _Rakugo_ menu and choose _SceneLinks_"
+msgstr ""
+
+#: ../../source/topics/changing_scenes.md:14
+msgid "![](changing_scene/scene-links01.png)"
+msgstr ""
+
+#: ../../source/topics/changing_scenes.md:16
+msgid "Now this window will appear:"
+msgstr ""
+
+#: ../../source/topics/changing_scenes.md:18
+msgid "![](changing_scene/scene-links-editor.png)"
+msgstr ""
+
+#: ../../source/topics/changing_scenes.md:20
+msgid "Click on _Add New Scene Link_ button and new entery will appear."
+msgstr ""
+
+#: ../../source/topics/changing_scenes.md:22
+msgid "![](changing_scene/sl-new-entery.png)"
+msgstr ""
+
+#: ../../source/topics/changing_scenes.md:24
+msgid "Place to set path to scene"
+msgstr ""
+
+#: ../../source/topics/changing_scenes.md:25
+msgid "List of current opened scenes to choose path from"
+msgstr ""
+
+#: ../../source/topics/changing_scenes.md:26
+msgid "Click this button browse for scene"
+msgstr ""
+
+#: ../../source/topics/changing_scenes.md:27
+msgid "Place to set **Id** for scene that will be used on changing scene"
+msgstr ""
+
+#: ../../source/topics/changing_scenes.md:28
+msgid "Click this button to remove entery"
+msgstr ""
+
+#: ../../source/topics/changing_scenes.md:30
+msgid "Set path to scene (using **1.** , **2.** or **3.**) and scene **Id**."
+msgstr ""
+
+#: ../../source/topics/changing_scenes.md:32
+msgid "Changing scene in code"
+msgstr ""
+
+#: ../../source/topics/changing_scenes.md:34
+msgid "Now you can change scenes using one of two ways:"
+msgstr ""
+
+#: ../../source/topics/changing_scenes.md:36
+msgid "Load_Scene"
+msgstr ""
+
+#: ../../source/topics/changing_scenes.md:38
+msgid "Use this way if scene you change to doesn't have any **Dialogues** Nodes."
+msgstr ""
+
+#: ../../source/topics/changing_scenes.md:47
+msgid "Jump"
+msgstr ""
+
+#: ../../source/topics/changing_scenes.md:49
+msgid ""
+"[You can read more about `jump()` here](dialogue_node/#jumping-between-"
+"dialogue-events)."
+msgstr ""
+
+#: ../../source/topics/changing_scenes.md:54
+msgid "Use this way if scene you change to has any **Dialogues** Nodes."
+msgstr ""
+

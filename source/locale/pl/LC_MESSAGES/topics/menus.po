@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Jeremi360, Vassaref and contributors
+# This file is distributed under the same license as the Rakugo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Rakugo latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-14 12:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/topics/menus.md:1
+msgid "Menus in Game"
+msgstr ""
+
+#: ../../source/topics/menus.md:3
+msgid "Menu Statement in Dialogue"
+msgstr ""
+
+#: ../../source/topics/menus.md:9
+msgid "Array of choices every choice is 3 element list like this:"
+msgstr ""
+
+#: ../../source/topics/menus.md:13
+msgid "Choice label that can use chosen [markup](text.md)."
+msgstr ""
+
+#: ../../source/topics/menus.md:14
+msgid "Variable to return when this choice is chosen."
+msgstr ""
+
+#: ../../source/topics/menus.md:15
+msgid ""
+"Additional parameters in from of dictionary, default empty. Build in "
+"parameters:"
+msgstr ""
+
+#: ../../source/topics/menus.md:16
+msgid "`visible` - can show/hide choice from player if true/false."
+msgstr ""
+
+#: ../../source/topics/menus.md:17
+msgid ""
+"Additional parameters in from of dictionary, default empty. There are no "
+"build in parameters for this statement"
+msgstr ""
+
+#: ../../source/topics/menus.md:20
+msgid "Example of menu:"
+msgstr ""
+
+#: ../../source/topics/menus.md:30
+msgid "![](menus/dialogue_menu1.png)"
+msgstr ""
+
+#: ../../source/topics/menus.md:48
+msgid "![](menus/dialogue_menu2.png)"
+msgstr ""
+
+#: ../../source/topics/menus.md:50
+msgid "Custom Menus"
+msgstr ""
+
+#: ../../source/topics/menus.md:52
+msgid "To crate custom menu use **Container** node like:"
+msgstr ""
+
+#: ../../source/topics/menus.md:54
+msgid "**VBoxContainer**"
+msgstr ""
+
+#: ../../source/topics/menus.md:55
+msgid "**HBoxContainer**"
+msgstr ""
+
+#: ../../source/topics/menus.md:56
+msgid "**GridContainer**"
+msgstr ""
+
+#: ../../source/topics/menus.md:58
+msgid "Use **Layout** menu to set layout of container ![](menus/layout.gif)"
+msgstr ""
+
+#: ../../source/topics/menus.md:63
+msgid "Add some **Buttons** to **Container**:"
+msgstr ""
+
+#: ../../source/topics/menus.md:65
+msgid "![](menus/button_types.png)"
+msgstr ""
+
+#: ../../source/topics/menus.md:67
+msgid "Use `Ctrl + D` shortcut to duplicate chosen node."
+msgstr ""
+
+#: ../../source/topics/menus.md:71
+msgid "![](menus/buttons.gif)"
+msgstr ""
+
+#: ../../source/topics/menus.md:73
+msgid ""
+"Then click on button and open **Node** tab (by default next to "
+"**Inspector** tab). Go to sub-tab **Signals** and choose `pressed()`."
+msgstr ""
+
+#: ../../source/topics/menus.md:76
+msgid "![](menus/signal-p1.gif)"
+msgstr ""
+
+#: ../../source/topics/menus.md:78
+msgid "Now this window will show up."
+msgstr ""
+
+#: ../../source/topics/menus.md:80
+msgid "![](menus/signal-p2.png)"
+msgstr ""
+
+#: ../../source/topics/menus.md:82
+msgid "Choose to which node connect signal (only nodes with script)"
+msgstr ""
+
+#: ../../source/topics/menus.md:83
+msgid "Name of function that will called on this signal"
+msgstr ""
+
+#: ../../source/topics/menus.md:84
+msgid "Click button **Connect** to apply this changes"
+msgstr ""
+
+#: ../../source/topics/menus.md:86
+msgid "Apply this changes will:"
+msgstr ""
+
+#: ../../source/topics/menus.md:88
+msgid "add icon that this button has connected signal"
+msgstr ""
+
+#: ../../source/topics/menus.md:90
+msgid "![](menus/signal-p3.png)"
+msgstr ""
+
+#: ../../source/topics/menus.md:92
+msgid "add new empty function to chosen node script"
+msgstr ""
+
+#: ../../source/topics/menus.md:94
+msgid "![](menus/signal-p4.png)"
+msgstr ""
+
+#: ../../source/topics/menus.md:96
+msgid "Edit body of this function how ever you want."
+msgstr ""
+
+#: ../../source/topics/menus.md:98
+msgid ""
+"Don't edit connected method name after it is created, it will break the "
+"connection."
+msgstr ""
+
