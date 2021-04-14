@@ -1,6 +1,6 @@
 # Dialogue and Narration
 
-Functions (called _statements_) listed below you should use them as part of [dialogue event](dialogue_node/#create-dialogue-event).
+Functions (called _statements_) listed below you should use them as part of [dialogue event](dialogue_node.html#create-dialogue-event).
 
 ```{note}
 You can call this functions from Rakugo like: `Rakugo.say()`, but we don't recommend this.
@@ -16,7 +16,7 @@ say("character_tag", "Text to say by character.", parameters)
 
 Args:
 
-1. Tag of character set when you create character, if `null` then it will use default [Narrator](project_setup/#narrator)
+1. Tag of character set when you create character, if `null` then it will use default [Narrator](project_setup.html#narrator)
 1. Text to be sed by character it can use [markup](text.md)
 1. Additional parameters in from of dictionary, default empty.
 
@@ -90,7 +90,7 @@ func first_dialogue():
 ```
 
 ```{note}
-What is `cond()` is explained [here](variables_and_conditions/#conditions).
+What is `cond()` is explained [here](variables_and_conditions.html#conditions).
 ```
 
 This code give us this result in visual novel template:

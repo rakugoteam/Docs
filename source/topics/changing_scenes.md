@@ -48,7 +48,7 @@ Rakugo.load_scene("scene_id", force_reload = false)
 
 ```{tip}
 
-[You can read more about `jump()` here](dialogue_node/#jumping-between-dialogue-events).
+[You can read more about `jump()` here](dialogue_node.html#jumping-between-dialogue-events).
 ```
 
 ```{note}

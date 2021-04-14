@@ -29,7 +29,10 @@ This will open a drop down list of platforms to choose from for an export preset
 
 ![](https://docs.godotengine.org/en/3.0/_images/export_preset.png)
 
-The default options are often enough to export, so tweaking them is not necessary, but provide extra control. However, many platforms require additional tools (SDKs) to be installed to be able to export. Additionally, Godot needs export templates installed to create packages. The export menu will complain when something is missing and will not allow the user to export for that platform until they resolve it:
+The default options are often enough to export, so tweaking them is not necessary, but provide extra control.
+However, many platforms require additional tools (SDKs) to be installed to be able to export.
+Additionally, Godot needs export templates installed to create packages.
+The export menu will complain when something is missing and will not allow the user to export for that platform until they resolve it:
 
 ![](https://docs.godotengine.org/en/3.0/_images/export_error.png)
 
@@ -37,7 +40,8 @@ At that time, the user is expected to come back to the documentation and follow 
 
 ## Export templates
 
-Apart from setting up the platform, the export templates must be installed to be able to export projects. They can be obtained as a .tpz (a renamed .zip) file from the [download page of the website](https://www.godotengine.org/download).
+Apart from setting up the platform, the export templates must be installed to be able to export projects.
+They can be obtained as a .tpz (a renamed .zip) file from the [Godot download page website](https://www.godotengine.org/download).
 
 Once downloaded, they can be installed using the “Install Export Templates” option in the editor:
 
@@ -46,7 +50,11 @@ Once downloaded, they can be installed using the “Install Export Templates” 
 ## Export Settings
 
 We need add _\*.json_ files, for emojis to work,
-![](https://user-images.githubusercontent.com/1294815/114680296-4d2f1900-9d0d-11eb-95e6-9122ff91427f.png)
+![](https://user-images.githubusercontent.com/1294815/114683836-a6e51280-9d10-11eb-97a1-0b0a287b69b9.png)
 
 change script export mode in the export settings from compiled to text
 ![](https://user-images.githubusercontent.com/1294815/114680556-9bdcb300-9d0d-11eb-8b37-ab1f3a991cad.png)
+
+[**More about Exporting in Godot here.**](https://docs.godotengine.org/en/3.0/getting_started/workflow/export/index.html)
+
+And finally hit export button
