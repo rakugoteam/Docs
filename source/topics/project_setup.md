@@ -1,13 +1,5 @@
 # Project Setup
 
-```{admonition} Info
-:class: note
-
-This tutorial base on my conversation with [noodulz](https://noodulz.itch.io)
-creator of [Light Letters](https://noodulz.itch.io/light-letters-demo) using Rakugo.
-This part will tell you how to start with new Rakugo Project.
-```
-
 ## Create Rakugo Project
 
 1. [Godot Engine](https://godotengine.org/download) needs to be downloaded and installed.
