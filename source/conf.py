@@ -124,4 +124,7 @@ html_css_files = ["css/custom.css"]
 html_js_files = ["js/custom.js"]
 
 
+# Locals
+locale_dirs = ['locale/']   # path is example but recommended.
+gettext_compact = False     # optional.
 

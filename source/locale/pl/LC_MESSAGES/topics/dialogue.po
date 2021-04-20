@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Jeremi360, Vassaref and contributors
+# This file is distributed under the same license as the Rakugo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Rakugo latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-14 12:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/topics/dialogue.md:1
+msgid "Dialogue and Narration"
+msgstr ""
+
+#: ../../source/topics/dialogue.md:3
+msgid ""
+"Functions (called _statements_) listed below you should use them as part "
+"of [dialogue event](dialogue_node/#create-dialogue-event)."
+msgstr ""
+
+#: ../../source/topics/dialogue.md:5
+msgid ""
+"You can call this functions from Rakugo like: `Rakugo.say()`, but we "
+"don't recommend this."
+msgstr ""
+
+#: ../../source/topics/dialogue.md:9
+msgid "Say Statement"
+msgstr ""
+
+#: ../../source/topics/dialogue.md:11
+msgid "This function is like this:"
+msgstr ""
+
+#: ../../source/topics/dialogue.md:17
+msgid "Args:"
+msgstr ""
+
+#: ../../source/topics/dialogue.md:19
+msgid ""
+"Tag of character set when you create character, if `null` then it will "
+"use default [Narrator](project_setup/#narrator)"
+msgstr ""
+
+#: ../../source/topics/dialogue.md:20
+msgid "Text to be sed by character it can use [markup](text.md)"
+msgstr ""
+
+#: ../../source/topics/dialogue.md:21 ../../source/topics/dialogue.md:65
+msgid "Additional parameters in from of dictionary, default empty."
+msgstr ""
+
+#: ../../source/topics/dialogue.md:23
+msgid "Build in additional parameters:"
+msgstr ""
+
+#: ../../source/topics/dialogue.md:25
+msgid "`markup` - use different then default markup for this dialogue part."
+msgstr ""
+
+#: ../../source/topics/dialogue.md:27 ../../source/topics/dialogue.md:67
+msgid "Additional parameters from visual novel template:"
+msgstr ""
+
+#: ../../source/topics/dialogue.md:29
+msgid "`typing` - turn on/off typing effect for this dialogue."
+msgstr ""
+
+#: ../../source/topics/dialogue.md:30
+msgid ""
+"`typing_effect_delay` - overwrite typing effect delay for this part of "
+"dialogue."
+msgstr ""
+
+#: ../../source/topics/dialogue.md:31
+msgid ""
+"`typing_effect_punctuation_factor` - overwrite typing effect punctuation "
+"factor for this part of dialogue."
+msgstr ""
+
+#: ../../source/topics/dialogue.md:33
+msgid "Define Character"
+msgstr ""
+
+#: ../../source/topics/dialogue.md:35
+msgid "To define new character use this function:"
+msgstr ""
+
+#: ../../source/topics/dialogue.md:41 ../../source/topics/dialogue.md:113
+msgid "For example:"
+msgstr ""
+
+#: ../../source/topics/dialogue.md:47
+msgid "Use this example character in dialogue:"
+msgstr ""
+
+#: ../../source/topics/dialogue.md:54
+msgid "![](dialogue/say.png)"
+msgstr ""
+
+#: ../../source/topics/dialogue.md:56
+msgid "Ask Statement"
+msgstr ""
+
+#: ../../source/topics/dialogue.md:58
+msgid "This function can be used to get information (as string) from player."
+msgstr ""
+
+#: ../../source/topics/dialogue.md:64
+msgid ""
+"default value returned by ask if player just press enter and don't "
+"provided any input or empty string"
+msgstr ""
+
+#: ../../source/topics/dialogue.md:69
+msgid ""
+"`placeholder` - text to display as hit for player, it will hide if player"
+" start to provided any input"
+msgstr ""
+
+#: ../../source/topics/dialogue.md:71
+msgid "Example of using ask to get player character name."
+msgstr ""
+
+#: ../../source/topics/dialogue.md:92
+msgid ""
+"What is `cond()` is explained "
+"[here](variables_and_conditions/#conditions)."
+msgstr ""
+
+#: ../../source/topics/dialogue.md:96
+msgid ""
+"This code give us this result in visual novel template: "
+"![](dialogue/ask.png)"
+msgstr ""
+
+#: ../../source/topics/dialogue.md:99
+msgid "Notify"
+msgstr ""
+
+#: ../../source/topics/dialogue.md:101
+msgid "This can be used to notify player of consequences of their decisions."
+msgstr ""
+
+#: ../../source/topics/dialogue.md:109
+msgid "Text to be displayed"
+msgstr ""
+
+#: ../../source/topics/dialogue.md:110
+msgid ""
+"Additional parameters in from of dictionary, default empty. There are no "
+"build in parameters for this statement."
+msgstr ""
+
+#: ../../source/topics/dialogue.md:119
+msgid "![](dialogue/notify.png)"
+msgstr ""
+

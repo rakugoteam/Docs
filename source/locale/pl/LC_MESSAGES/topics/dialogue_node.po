@@ -1,0 +1,217 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Jeremi360, Vassaref and contributors
+# This file is distributed under the same license as the Rakugo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Rakugo latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-14 12:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/topics/dialogue_node.md:1
+msgid "Dialogue Node"
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:3
+msgid ""
+"Scene with dialogue need to be added to [SceneLinks](changing_scenes.md) "
+"to works"
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:7
+msgid "To add new Node to scene you can clicking on plus icon or **A + Ctrl**."
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:9
+msgid "Dialogue Node can be add to any type of scene:"
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:10
+msgid "2D (**Node2D**)"
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:11
+msgid "3D (**Spatial**)"
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:12
+msgid "User Interface (**Control**)"
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:14
+msgid ""
+"If scene has any **Control** node that is not a button, then make sure "
+"it's mouse filter is set to *Ignore*. Otherwise it can block step forward"
+" in Dialogue. It can be set in **Control** node Inspector."
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:18
+msgid "![](dialogue_node/mouse_filter.png)"
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:22
+msgid "![](dialogue_node/add-node.png)"
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:24
+msgid ""
+"The window for choosing the type of node will appear, type _dialogue_ (or"
+" part of it) in the search box to find it easier and click on it."
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:26
+msgid ""
+"You can click on the star icon to add it to your favorite nodes, for "
+"easier access in the future."
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:30
+msgid "![](dialogue_node/add-node-window.png)"
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:32
+msgid "Now click the _Create_ button at bottom of this window."
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:34
+msgid "Setup Dialogue for Editing"
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:36
+msgid ""
+"You should change the name of the **Dialogue** node, as there will likely"
+" be many nodes of this type in scene. To do this double click on its name"
+" in scene hierarchy."
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:42
+msgid ""
+"To write our own dialogue in it, you to first extend it. To do it right "
+"click on node and choose _Extend Script_."
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:45
+msgid "![](dialogue_node/extend-script.png)"
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:47
+msgid "The Create Script window will appear."
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:49
+msgid "![](dialogue_node/extend-script-window.png)"
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:51
+msgid "Change **Template** to _Empty_."
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:53
+msgid ""
+"By default path to save script is set to the same folder as the scene and"
+" the name of script is the same as the node."
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:58
+msgid "The center Godot editor window will switch to script editor."
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:60
+msgid "![](dialogue_node/script-tab.png)"
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:62
+msgid ""
+"You can always change the mode of the editor center by clicking on the "
+"icons in the top center of the window."
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:67
+msgid "Create Dialogue event"
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:69
+msgid ""
+"**Dialogue event** is Rakugo's term for special func, this func should "
+"look like this:"
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:84
+msgid "Dialogue Node Inspector"
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:86
+msgid "Look at the _FirstDialogue_ node _Inspector_ tab."
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:88
+msgid "![](dialogue_node/dialogue-node.png)"
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:90
+msgid ""
+"Set **Default Starting Event** to dialogue event name to start from by "
+"default"
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:91
+msgid ""
+"Set **Auto Start** to true if this is dialogue from which Scene should by"
+" default"
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:92
+msgid ""
+"Set this to true if there are important changes in this dialogue between "
+"version of your game."
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:94
+msgid "On one Scene can be only one **Dialogue** node with `auto_start = true`."
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:99
+msgid "Jumping between dialogue events"
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:101
+msgid "You can jump between dialogue events few different ways:"
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:103
+msgid "jump to different dialogue event in the same **Dialogue** node"
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:111
+msgid "jump to default dialogue event in other **Dialogue** node"
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:119
+msgid "jump to different dialogue event in other **Dialogue** node"
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:125
+msgid "jump to default dialogue event in other scene"
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:131
+msgid ""
+"jump to default dialogue event in other scene from not default "
+"**Dialogue** node"
+msgstr ""
+
+#: ../../source/topics/dialogue_node.md:135
+msgid ""
+"jump to not default one dialogue event in other scene that on not default"
+" **Dialogue** node"
+msgstr ""
+

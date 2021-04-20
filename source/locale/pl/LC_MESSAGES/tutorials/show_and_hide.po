@@ -1,0 +1,250 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Jeremi360, Vassaref and contributors
+# This file is distributed under the same license as the Rakugo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Rakugo latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-14 12:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/tutorials/show_and_hide.md:1
+msgid "Show and Hide Tutorial"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:3
+msgid ""
+"This tutorial is based on my conversation with "
+"[noodulz](https://noodulz.itch.io) creator of [Light "
+"Letters](https://noodulz.itch.io/light-letters-demo) using Rakugo."
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:5
+msgid ""
+"This tutorial will show you how to use `show()` and `hide()` funcs in "
+"Dialogue."
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:7
+msgid "**_Updated for Rakugo 3.1.0_**"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:9
+msgid "Import Assets"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:11
+msgid ""
+"First we need add to our scene something that we can show or hide. In can"
+" be any type of node, if we set and script it correct."
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:14
+msgid ""
+"In this example we will use [this free character "
+"sprite](https://liah0227.itch.io/female-student-1)."
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:16
+msgid ""
+"Open your Rakugo project then move folder with sprites to "
+"_game/characters_ (if you don't have this folder create it)."
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:18
+msgid "![](show_and_hide/01.png)"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:20
+msgid "After that godot will start importing this assets."
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:22
+msgid "Prepare Scene"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:24
+msgid "When godot finish importing click on plus icon to create new scene."
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:26
+msgid "![](show_and_hide/02.png)"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:28
+msgid "For my case we choose **2D Scene** as scene type."
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:30
+msgid "![](show_and_hide/03.png)"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:32
+msgid "Now change root Node name to character name, we will call mine _Yui_."
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:34
+msgid "![](show_and_hide/04.gif)"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:36
+msgid "Then we change name of asset folder to reflect that."
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:38
+msgid "![](show_and_hide/05.gif)"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:40
+msgid "Now we save scene to _game/characters/Yui_ as _Yui.tscn_."
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:42
+msgid "![](show_and_hide/06.gif)"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:44
+msgid "After that we select all assets and drag them in to scene."
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:46
+msgid "![](show_and_hide/07.gif)"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:48
+msgid "Before adding tags"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:50
+msgid ""
+"To make our scene more readable and easier to script we use _Batch "
+"Rename_ tool for just added nodes."
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:52
+msgid "Copy repeating part of nodes name"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:53
+msgid "Select nodes that names we want to change"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:54
+msgid "Right click on them then choose _Batch Rename_"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:55
+msgid "Use tool"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:57
+msgid "![](show_and_hide/08.gif)"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:59
+msgid ""
+"Our character is too big for as, but we can easy fix this. Just choose "
+"root node and change scale."
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:62
+msgid "Adding tags"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:64
+msgid "![](show_and_hide/09.gif)"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:66
+msgid ""
+"Now we need to select root node and add it to `showable` group with some "
+"tags. Tags are special types of groups that names will be auto converted "
+"at runtime. Tags starts with `$`, they can use `#` for node name and `*` "
+"for wildcard."
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:70
+msgid ""
+"To start select any node then switch to _Node_ tab on side and then to it"
+" subtab _Groups_. Then click button _Manage Groups_ - this tool allows us"
+" to easy add many nodes to many groups/tags."
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:73
+msgid "![](show_and_hide/10.gif)"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:75
+msgid "We now create 1 group and 2 tags:"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:77
+msgid "`showable`"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:78
+msgid "`$ yui *`"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:79
+msgid "`$ yui #`"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:81
+msgid ""
+"We add all nodes to `showable`. Then we add root node to `$ yui *`. And "
+"children nodes to `$ yui #`"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:85
+msgid "![](show_and_hide/11.gif)"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:87
+msgid "Add character sprite to our dialogue scene"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:89
+msgid "First save our scene and add it to our dialogue scene so we can test this."
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:91
+msgid "![](show_and_hide/12.gif)"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:93
+msgid ""
+"Added `showable` tag allow us to use it already in dialogue scene in "
+"dialogue script with `show()` or `hide()` in dialogue script, because any"
+" Node2D has `show()` and `hide()` in it."
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:96
+msgid "Define Yui character in `_ready()` func:"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:102
+msgid "Then add this lines to our dialogue:"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:114
+msgid "And we get happy Yui."
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:116
+msgid "![](show_and_hide/13.png)"
+msgstr ""
+
+#: ../../source/tutorials/show_and_hide.md:118
+msgid "She hide in next step of dialogue"
+msgstr ""
+

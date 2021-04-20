@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Jeremi360, Vassaref and contributors
+# This file is distributed under the same license as the Rakugo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Rakugo latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-14 12:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:1
+msgid "Adding Multiple Styles of Displaying Dialogue"
+msgstr ""
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:3
+msgid "Edit GUI Template"
+msgstr ""
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:5
+msgid ""
+"This tutorial show you how you can and your own other ways of displaying "
+"Dialogues. For that we need to change gui template and gui is for you to "
+"be changed if you need that."
+msgstr ""
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:8
+msgid "In your project open *gui/InGame/InGameGUI.tscn* scene."
+msgstr ""
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:10
+msgid "*Tip: You can use short cut `Shift + Ctrl + O`*"
+msgstr ""
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:12
+msgid "![](styles_of_displaying_dialogue/find_scene.gif)"
+msgstr ""
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:14
+msgid "Node that handle displaying dialogue is **InGameGUI/DialoguePanel**."
+msgstr ""
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:16
+msgid "![](styles_of_displaying_dialogue/dialogue_panel.png)"
+msgstr ""
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:18
+msgid "How DialoguePanel Works ?"
+msgstr ""
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:20
+msgid ""
+"If you look into it script you will see that  you only need to connect "
+"your node to signal `\"say\"` so it will receive call dialogue `say()` "
+"funcs."
+msgstr ""
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:49
+msgid "Edit Original Script to use Parameters"
+msgstr ""
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:51
+msgid ""
+"We need add some way to switch between dialogue displays, for this we "
+"will use parameters."
+msgstr ""
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:54
+msgid ""
+"In this tutorial I use only `style` parameter, but you can add and use "
+"whatever parameters you want. For example `pos` to set DialoguePanel "
+"position:"
+msgstr ""
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:99
+msgid "This code make Rakugo use this dialogue style if it will look like this:"
+msgstr ""
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:112
+msgid ""
+"To make it automatic edit **Project Settings**. Open *Project > Project "
+"Settings*. Then go to *rakugo/default* ![](../topics/project_setup"
+"/project-settings-defaults.png)"
+msgstr ""
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:117
+msgid ""
+"Next edit parameters for **Say** and **Ask**. "
+"![](styles_of_displaying_dialogue/defaults.gif)"
+msgstr ""
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:120
+msgid "Must click on *Add Key/Value Pair* to confirm."
+msgstr ""
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:124
+msgid "Add Other Style of Display Dialogue"
+msgstr ""
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:126
+msgid "First duplicate **DialoguePanel**."
+msgstr ""
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:127
+msgid "You can use `Ctrl + D` shortcut for this."
+msgstr ""
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:131
+msgid ""
+"Change node name and `style` value. In this example I will add "
+"DialoguePanel to top of screen."
+msgstr ""
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:134
+msgid "![](styles_of_displaying_dialogue/new_dp.gif)"
+msgstr ""
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:136
+msgid "Change new DialoguePanel as you need."
+msgstr ""
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:138
+msgid "![](styles_of_displaying_dialogue/top_dp.gif)"
+msgstr ""
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:140
+msgid "Test it"
+msgstr ""
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:156
+msgid "Result:"
+msgstr ""
+
+#: ../../source/tutorials/styles_of_displaying_dialogue.md:158
+msgid "![](styles_of_displaying_dialogue/result.gif)"
+msgstr ""
+

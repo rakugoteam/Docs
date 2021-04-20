@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Jeremi360, Vassaref and contributors
+# This file is distributed under the same license as the Rakugo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Rakugo latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-20 12:40+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/index.md:15
+msgid "Topics"
+msgstr "Tematy"
+
+#: ../../source/index.md:30
+msgid "Tutorials"
+msgstr "Tutoriale"
+
+#: ../../source/index.md:1
+msgid "About"
+msgstr "O RakugoDocs"
+
+#: ../../source/index.md:3
+msgid "This are Docs for Rakugo"
+msgstr "To jest dokumentacja Rakugo"
+
+#: ../../source/index.md:5
+msgid "![](index/the_question2.png)"
+msgstr "![](index/the_question2.png)"
+
+#: ../../source/index.md:7
+msgid ""
+"Inspired by [Ren'Py](https://www.renpy.org), Rakugo is a project aimed at"
+" providing a better toolset for narrative-based games on "
+"[Godot](https://godotengine.org). Simplify your project, if it is a "
+"visual novel, point and click, RPG, interactive text game or many other "
+"styles and blends of styles."
+msgstr ""
+"Zainspirowany [Ren'Py](https://www.renpy.org),Rakugo ma na celu "
+"zapewnienie lepszego zestawu narzędzi do gier narracyjnych na silniku "
+"[Godot](https://godotengine.org). Uprość swój projekt, jeśli jest "
+"topowieść wizualna, wskaż i kliknij, RPG, interaktywna gra tekstowa lub "
+"innygatunek czy ich miks."
+
