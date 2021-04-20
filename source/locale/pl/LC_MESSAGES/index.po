@@ -35,7 +35,7 @@ msgstr "To jest dokumentacja Rakugo"
 
 #: ../../source/index.md:5
 msgid "![](index/the_question2.png)"
-msgstr ""
+msgstr "![](index/the_question2.png)"
 
 #: ../../source/index.md:7
 msgid ""
