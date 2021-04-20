@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Rakugo latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-14 12:41+0200\n"
+"POT-Creation-Date: 2021-04-20 12:40+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,11 +27,15 @@ msgstr "Tutoriale"
 
 #: ../../source/index.md:1
 msgid "About"
-msgstr "O"
+msgstr "O RakugoDocs"
 
 #: ../../source/index.md:3
 msgid "This are Docs for Rakugo"
 msgstr "To jest dokumentacja Rakugo"
+
+#: ../../source/index.md:5
+msgid "![](index/the_question2.png)"
+msgstr ""
 
 #: ../../source/index.md:7
 msgid ""
@@ -41,9 +45,9 @@ msgid ""
 "visual novel, point and click, RPG, interactive text game or many other "
 "styles and blends of styles."
 msgstr ""
-"Zainspirowany [Ren'Py](https://www.renpy.org),"
-"Rakugo to ma na celu zapewnienie lepszego zestawu narzędzi do gier narracyjnych na”
-"silniku [Godot](https://godotengine.org). Uprość swój projekt, jeśli jest to"
-"powieść wizualna, wskaż i kliknij, RPG, interaktywna gra tekstowa lub wiele innych"
-"gatunków i ich miksów."
+"Zainspirowany [Ren'Py](https://www.renpy.org),Rakugo ma na celu "
+"zapewnienie lepszego zestawu narzędzi do gier narracyjnych na silniku "
+"[Godot](https://godotengine.org). Uprość swój projekt, jeśli jest "
+"topowieść wizualna, wskaż i kliknij, RPG, interaktywna gra tekstowa lub "
+"innygatunek czy ich miks."
 

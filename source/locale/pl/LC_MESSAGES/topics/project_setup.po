@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Rakugo latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-14 12:41+0200\n"
+"POT-Creation-Date: 2021-04-20 12:40+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,44 +22,32 @@ msgid "Project Setup"
 msgstr "Stworzenie Projektu"
 
 #: ../../source/topics/project_setup.md:3
-msgid "Info"
-msgstr "Informacja"
-
-#: ../../source/topics/project_setup.md:3
-msgid ""
-"This tutorial base on my conversation with "
-"[noodulz](https://noodulz.itch.io) creator of [Light "
-"Letters](https://noodulz.itch.io/light-letters-demo) using Rakugo. This "
-"part will tell you how to start with new Rakugo Project."
-msgstr ""
-
-#: ../../source/topics/project_setup.md:11
 msgid "Create Rakugo Project"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:13
+#: ../../source/topics/project_setup.md:5
 msgid ""
 "[Godot Engine](https://godotengine.org/download) needs to be downloaded "
 "and installed."
 msgstr ""
 
-#: ../../source/topics/project_setup.md:14
+#: ../../source/topics/project_setup.md:6
 msgid ""
 "Download [Rakugo](https://rakugoteam.github.io/download/) from official "
 "sources."
 msgstr ""
 
-#: ../../source/topics/project_setup.md:15
+#: ../../source/topics/project_setup.md:7
 msgid ""
 "Open Godot and use the Import button to your right, then browse your "
 "files to find the Rakugo ZIP."
 msgstr ""
 
-#: ../../source/topics/project_setup.md:17
+#: ../../source/topics/project_setup.md:9
 msgid "![](project_setup/import-project.png)"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:19
+#: ../../source/topics/project_setup.md:11
 msgid ""
 "Godot will load the Rakugo template, but there is a known, easy to fix "
 "issue. Due to how Godot 3.x currently loads add-ons, it will not start "
@@ -68,241 +56,253 @@ msgid ""
 "project is **Ctrl + Shift + Q**."
 msgstr ""
 
-#: ../../source/topics/project_setup.md:27
+#: ../../source/topics/project_setup.md:19
 msgid "Project Structure"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:29
+#: ../../source/topics/project_setup.md:21
 msgid ""
 "The FileSystem tab is your main hub, should only use this tab to change "
 "names or move files for your project."
 msgstr ""
 
-#: ../../source/topics/project_setup.md:34
+#: ../../source/topics/project_setup.md:26
 msgid "![](project_setup/file-system.png)"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:36
+#: ../../source/topics/project_setup.md:28
 msgid ""
 "_addons/Rakugo/_ - the core code of Rakugo. You should leave this alone "
 "unless you know what you're doing."
 msgstr ""
 
-#: ../../source/topics/project_setup.md:37
+#: ../../source/topics/project_setup.md:29
 msgid "_fonts_ - fonts assets used by GUI for text displays."
 msgstr ""
 
-#: ../../source/topics/project_setup.md:38
+#: ../../source/topics/project_setup.md:30
 msgid "_game_ - Most of your game code and assets should be here."
 msgstr ""
 
-#: ../../source/topics/project_setup.md:39
+#: ../../source/topics/project_setup.md:31
 msgid "_graphics_ - Graphical assets used by Rakugo"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:40
+#: ../../source/topics/project_setup.md:32
 msgid ""
 "_gui_ - Your highly customizeable GUI. It can be used for whatever GUI a "
 "creator can think of."
 msgstr ""
 
-#: ../../source/topics/project_setup.md:41
+#: ../../source/topics/project_setup.md:33
 msgid ""
 "_themes_ - Obsolete GUI themes from older Rakugo versions that will be "
 "removed or replaced in future versions."
 msgstr ""
 
-#: ../../source/topics/project_setup.md:43
+#: ../../source/topics/project_setup.md:35
 msgid "Rakugo Project Settings"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:45
+#: ../../source/topics/project_setup.md:37
 msgid ""
 "To change game settings for your project, select _Project > Project "
 "Settings_"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:47
+#: ../../source/topics/project_setup.md:39
 msgid "![](project_setup/project-settings.png)"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:49
+#: ../../source/topics/project_setup.md:41
 msgid ""
 "Here is a new Rakugo category for the add-on content. There are some "
 "obsolete options that will be fully removed in a future update."
 msgstr ""
 
-#: ../../source/topics/project_setup.md:52
+#: ../../source/topics/project_setup.md:44
 msgid "![](project_setup/project-settings-window.png)"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:54
+#: ../../source/topics/project_setup.md:46
 msgid "Obsolete Settings"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:56
+#: ../../source/topics/project_setup.md:48
 msgid "_rakugo/game/info/credits_"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:57
+#: ../../source/topics/project_setup.md:49
 msgid "_rakugo/editor/debug_"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:58
+#: ../../source/topics/project_setup.md:50
 msgid "_rakugo/default/gui/theme_"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:60
+#: ../../source/topics/project_setup.md:52
 msgid "Game Settings"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:62
+#: ../../source/topics/project_setup.md:54
 msgid "![](project_setup/project-settings-game.png)"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:64
+#: ../../source/topics/project_setup.md:56
 msgid "_rakugo/game/info/version_ - current version of your game"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:65
+#: ../../source/topics/project_setup.md:57
 msgid ""
 "_rakugo/game/text/markup_ - markup langue used in dialogue [more markup "
 "it here](text.md)"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:67
+#: ../../source/topics/project_setup.md:59
 msgid ""
 "_rakugo/game/scenes/scene_links_ - this setting tells rakugo where is "
 "[SceneLinks resource, more about it here](changing_scenes.md). This can "
 "be use for dlcs and mods."
 msgstr ""
 
-#: ../../source/topics/project_setup.md:68
+#: ../../source/topics/project_setup.md:60
 msgid ""
 "_rakugo/game/scenes/force_reload_ - should rakugo force reload scene on "
 "jump between dialogue events, can fix some bugs if for example you have "
 "all game in one scene, like our _The Question_ demo"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:70
+#: ../../source/topics/project_setup.md:62
 msgid "_rakugo/game/store/rollback_steps_ - how many rollback steps can be done"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:71
+#: ../../source/topics/project_setup.md:63
 msgid "_rakugo/game/store/history_length_ - how long history log is displayed"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:73
+#: ../../source/topics/project_setup.md:65
 msgid "Default Functions Arguments Settings"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:75
+#: ../../source/topics/project_setup.md:67
 msgid "![](project_setup/project-settings-defaults.png)"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:77
+#: ../../source/topics/project_setup.md:69
 msgid "Narrator"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:79
+#: ../../source/topics/project_setup.md:71
 msgid "Character used when `say()` is called with `character_tag = null`."
 msgstr ""
 
-#: ../../source/topics/project_setup.md:81
+#: ../../source/topics/project_setup.md:73
 msgid "_rakugo/default/narrator/name_"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:82
+#: ../../source/topics/project_setup.md:74
 msgid "_rakugo/default/narrator/color_"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:84
+#: ../../source/topics/project_setup.md:76
 msgid "Delays"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:86
+#: ../../source/topics/project_setup.md:78
 msgid ""
 "_rakugo/default/delays/typing_effect_delay_ - time between _typing_ next "
 "letter when `typing_effect = true`"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:87
+#: ../../source/topics/project_setup.md:79
 msgid ""
 "_rakugo/default/delays/typing_effect_punctuation_factor_ - how long wait "
 "after punctuation before continue _typing_ effect"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:88
+#: ../../source/topics/project_setup.md:80
 msgid ""
 "_rakugo/default/delays/auto_mode_delay_ - how long does the step take on "
 "_auto mode_"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:89
+#: ../../source/topics/project_setup.md:81
 msgid ""
 "_rakugo/default/delays/skip_delay_ - how long does the step take on _skip"
 " mode_"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:91
+#: ../../source/topics/project_setup.md:83
 msgid "Statements"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:93
+#: ../../source/topics/project_setup.md:85
 msgid ""
 "_rakugo/default/statements/default_say_parameters_ - default additional "
 "parameters for `say()` statement"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:94
+#: ../../source/topics/project_setup.md:86
 msgid ""
 "_rakugo/default/statements/default_ask_parameters_ - default additional "
 "parameters for `ask()` statement"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:95
+#: ../../source/topics/project_setup.md:87
 msgid ""
 "_rakugo/default/statements/default_show_parameters_ - default additional "
 "parameters for `show()` statement"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:97
+#: ../../source/topics/project_setup.md:89
 msgid "Save Settings"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:99
+#: ../../source/topics/project_setup.md:91
 msgid "![](project_setup/project-settings-saves.png)"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:101
+#: ../../source/topics/project_setup.md:93
 msgid ""
 "_rakugo/saves/test_mode_ - if set `true`, save files will be saved as "
 "text files in your project folder for ease of testing. Set it to `false` "
 "before export."
 msgstr ""
 
-#: ../../source/topics/project_setup.md:103
+#: ../../source/topics/project_setup.md:95
 msgid ""
 "_rakugo/saves/save_folder_ - it is the path for the project's save "
 "folder. Before exporting, change it to start to _user://_ instead of "
 "_res://_"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:105
+#: ../../source/topics/project_setup.md:97
 msgid ""
 "_rakugo/saves/save_screen_layout_ - how to displays saves in pause menu, "
 "there are 2 build modes for this:"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:107
+#: ../../source/topics/project_setup.md:99
 msgid ""
 "_save_pages_ - use grid and pages, similar to **Ren'Py** way of "
 "displaying saves"
 msgstr ""
 
-#: ../../source/topics/project_setup.md:108
+#: ../../source/topics/project_setup.md:100
 msgid ""
 "_save_list_ - use vertical list of saves, similar to **RPGMaker** way of "
 "displaying saves"
 msgstr ""
+
+#~ msgid "Info"
+#~ msgstr "Informacja"
+
+#~ msgid ""
+#~ "This tutorial base on my conversation"
+#~ " with [noodulz](https://noodulz.itch.io) creator "
+#~ "of [Light Letters](https://noodulz.itch.io/light-"
+#~ "letters-demo) using Rakugo. This part "
+#~ "will tell you how to start with"
+#~ " new Rakugo Project."
+#~ msgstr ""
 
