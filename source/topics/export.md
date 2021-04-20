@@ -1,5 +1,11 @@
 # How To Export Project
 
+```{warning}
+Custom thread is used by Rakugo dialogs system, but
+Godot 3.x don't support custom threads in Html export.
+So you can try to export to Html, but it will not work properly.
+```
+
 ## Project Settings
 
 Before Export some Project Settings need to be changed:
