@@ -50,11 +50,11 @@ Once downloaded, they can be installed using the “Install Export Templates” 
 ## Export Settings
 
 We need add _\*.json_ files, for emojis to work,
-![](https://user-images.githubusercontent.com/1294815/114683836-a6e51280-9d10-11eb-97a1-0b0a287b69b9.png)
+![](export/json-settings.png)
 
 change script export mode in the export settings from compiled to text
 
-![](https://user-images.githubusercontent.com/1294815/114680556-9bdcb300-9d0d-11eb-8b37-ab1f3a991cad.png)
+![](export/scripts-settings.png)
 
 ```{note}
 [More about Exporting in Godot here.](https://docs.godotengine.org/en/3.3/getting_started/workflow/export/index.html)
