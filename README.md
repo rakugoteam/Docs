@@ -7,7 +7,7 @@ toolset for narrative-based games on
 
 This docs are using:
 - [Sphinx](https://www.sphinx-doc.org)
-- [MyST](https://myst-parser.readthedocs.io/en/latest/ ../index/)
+- [MyST](https://myst-parser.readthedocs.io/en/latest/)
 - [theme and extensions from godot-docs](https://github.com/godotengine/godot-docs)
 
 ## How to Build
