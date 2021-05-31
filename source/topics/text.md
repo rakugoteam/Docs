@@ -1,6 +1,7 @@
 # Text
 
-In **Dialogue** node you can use one of supported markups with functions: `say()`, `ask()` and `menu()`. You can use it in ui also [here how](#use-markup-in-ui).
+In **Dialogue** node you can use one of supported markups with functions: `say()`, `ask()`, `menu()` and `notify()`.
+You can use it in ui also [here how](#use-markup-in-ui).
 You can set default markup in [**ProjectSettings**](project_setup/#game-settings).
 
 ## Reference
@@ -31,41 +32,35 @@ You can set default markup in [**ProjectSettings**](project_setup/#game-settings
 
 :::
 
-:::{tabbed} markdown_simple
-
-| Command           | Tag              | Description                                                                |
-| ----------------- | ---------------- | -------------------------------------------------------------------------- |
-| **bold**          | `**text**`       | Makes text bold.                                                           |
-| **italics**       | `*text*`         | Makes text italics.                                                        |
-| **underline**     | `[u]text[/u]`    | Makes text underline.                                                      |
-| **strikethrough** | `~~text~~`       | Makes text strikethrough.                                                  |
-| **code**          | `` `text` ``     | Makes text use the code font (which is typically monospace).               |
-| **url**           | `protocol://url` | Show url as such, underline it and make it clickable.                      |
-| **variable**      | `<variable>`     | Put `variable` as string in text, variable must be added to `Rakugo.store` |
-| **emoji**         | `:emoji:`        | Insert emoji image.                                                        |
-| **image**         | `![](path)`      | Insert image at resource path.                                             |
-
-:::
-
 :::{tabbed} renpy
 
+| Command           | Tag                                         | Description                                                                |
+| ----------------- | ------------------------------------------- | -------------------------------------------------------------------------- |
+| **bold**          | `{b}text{/b}`                               | Makes text bold.                                                           |
+| **italics**       | `{i}text{/i}`                               | Makes text italics.                                                        |
+| **underline**     | `{u}text{/u}`                               | Makes text underline.                                                      |
+| **strikethrough** | `{s}text{/s}`                               | Makes text strikethrough.                                                  |
+| **code**          | `{code}text{/code}`                         | Makes text use the code font (which is typically monospace).               |
+| **center**        | `{center}text{/center}`                     | Makes text horizontally centered.                                          |
+| **right**         | `{right}text{/right}`                       | Makes text horizontally right-aligned.                                     |
+| **fill**          | `{fill}text{/fill}`                         | Makes text fill the RichTextLabel's width.                                 |
+| **indent**        | `{indent}text{/indent}`                     | Increase the indentation level of text.                                    |
+| **url**           | `{url}url{/url}`                            | Show url as such, underline it and make it clickable.                      |
+| **variable**      | `<variable>`                                | Put `variable` as string in text, variable must be added to `Rakugo.store` |
+| **emoji**         | `{:emoji:}`                                 | Insert emoji image.                                                        |
+| **image**         | `{img}path{/img}`::{tabbed} markdown_simple |
+
 | Command           | Tag                             | Description                                                                |
-| ----------------- | ------------------------------- | -------------------------------------------------------------------------- |
-| **bold**          | `{b}text{/b}`                   | Makes text bold.                                                           |
-| **italics**       | `{i}text{/i}`                   | Makes text italics.                                                        |
-| **underline**     | `{u}text{/u}`                   | Makes text underline.                                                      |
-| **strikethrough** | `{s}text{/s}`                   | Makes text strikethrough.                                                  |
-| **code**          | `{code}text{/code}`             | Makes text use the code font (which is typically monospace).               |
-| **center**        | `{center}text{/center}`         | Makes text horizontally centered.                                          |
-| **right**         | `{right}text{/right}`           | Makes text horizontally right-aligned.                                     |
-| **fill**          | `{fill}text{/fill}`             | Makes text fill the RichTextLabel's width.                                 |
-| **indent**        | `{indent}text{/indent}`         | Increase the indentation level of text.                                    |
-| **url**           | `{url}url{/url}`                | Show url as such, underline it and make it clickable.                      |
+| ----------------- | ------------------------------- | -------------------------------------------------------------------------- | --------------------------------------------------- |
+| **bold**          | `**text**`                      | Makes text bold.                                                           |
+| **italics**       | `*text*`                        | Makes text italics.                                                        |
+| **underline**     | `[u]text[/u]`                   | Makes text underline.                                                      |
+| **strikethrough** | `~~text~~`                      | Makes text strikethrough.                                                  |
+| **code**          | `` `text` ``                    | Makes text use the code font (which is typically monospace).               |
+| **url**           | `protocol://url`                | Show url as such, underline it and make it clickable.                      |
 | **variable**      | `<variable>`                    | Put `variable` as string in text, variable must be added to `Rakugo.store` |
-| **emoji**         | `{:emoji:}`                     | Insert emoji image.                                                        |
-| **image**         | `{img}path{/img}`               | Insert image at resource path.                                             |
-| **resized image** | `{img=width}path{/img}`         | Insert image at resource path using width (keeps ratio).                   |
-| **resized image** | `{img=widthxheight}path{/img}`  | Insert image at resource path using `width×height`.                        |
+| **emoji**         | `:emoji:`                       | Insert emoji image.                                                        |
+| **image**         | `![](path)`                     | Insert image at resource path.                                             | Insert image at resource path using `width×height`. |
 | **font**          | `{font=path}text{/font}`        | Use custom font at path for text.                                          |
 | **color**         | `{color=code/name}text{/color}` | Change text color; use name or `#` format, such as `#ff00ff`.              |
 | **table**         | `{table=number}cells{/table}`   | Creates a table with number of columns.                                    |
@@ -384,32 +379,21 @@ Where `freq` is the number of full rainbow cycles per second,
 
 ## Use Markup in UI
 
-```{note}
+To use markup with ui you need to use **RakugoTextLabel** to display it.
+It can be preview in editor, but with out values support.
+![](text/RakugoTextLabel.gif)
 
-This can change in future versions.
-```
+Options of **RakugoTextLabel** :
 
-To use markup with ui you need to use **RichTextLabel** to display it.
-It supports bbcode without `<value>` out of the box.
-You only need set `enable_bbcode` to `true`.
+### rakugo_text
 
-If you want to use other markup with it add to it script like this:
+_Markup text to be displayed._
 
-```{note}
+### markup
 
-You can use `tool` keyword to update text preview in editor,
-but Rakugo text passer don't work well with it, so we don't recommend using it for now.
-```
+_Markup to be used._
 
-```gdscript
-extends RichTextLabel
-
-# this line add multiline text editor for value in Inspector
-export(String, MULTILINE) var rakugo_text := "text to parse"
-
-func _ready() -> void:
-  bbcode_enabled = true
-    bbcode_text = Rakugo.parse_rich_text(rakugo_text)
-```
-
-![](text/RakugoTextLabel.png)
+- game-settings
+- renpy
+- markdown
+- bbcode
