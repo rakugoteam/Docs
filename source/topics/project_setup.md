@@ -3,8 +3,12 @@
 ## Create Rakugo Project
 
 1. [Godot Engine](https://godotengine.org/download) needs to be downloaded and installed.
-2. Download [Rakugo](https://rakugoteam.github.io/download/) from official sources.
-3. Open Godot and use the Import button to your right, then browse your files to find the Rakugo ZIP.
+2. Download [Rakugo](https://rakugoteam.github.io/download/) from official sources and unzip it.
+3. Open Godot and use the Import button to your right, then browse your files to find the _godot.project_ file inside Rakugo.
+
+```{note}
+For some reason importing Rakugo as zip in Godot Project Manager doesn't work correctly.
+```
 
 ![](project_setup/import-project.png)
 
@@ -19,7 +23,6 @@ The shortcut for closing a project is **Ctrl + Shift + Q**.
 ## Project Structure
 
 ```{note}
-
 The FileSystem tab is your main hub, should only use this tab to change names or move files for your project.
 ```
 
