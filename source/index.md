@@ -30,6 +30,16 @@ topics/export.md
 ```{toctree}
 ---
 maxdepth: 2
+caption: Nodes
+---
+
+nodes/dialogue.md
+nodes/rakugo_text_label.md
+```
+
+```{toctree}
+---
+maxdepth: 2
 caption: Tutorials
 ---
 tutorials/show_and_hide.md
