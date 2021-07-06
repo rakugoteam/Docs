@@ -45,3 +45,11 @@ caption: Tutorials
 tutorials/show_and_hide.md
 tutorials/styles_of_displaying_dialogue.md
 ```
+
+```{toctree}
+---
+maxdepth: 2
+caption: Point And Click
+---
+tutorials/
+```
