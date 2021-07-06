@@ -51,5 +51,5 @@ tutorials/styles_of_displaying_dialogue.md
 maxdepth: 2
 caption: Point And Click
 ---
-tutorials/
+tutorials/clickable_areas.md
 ```
