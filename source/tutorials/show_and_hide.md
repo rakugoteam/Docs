@@ -59,9 +59,9 @@ To make our scene more readable and easier to script we use _Batch Rename_ tool 
 Our character is too big for as, but we can easy fix this.
 Just choose root node and change scale.
 
-## Adding tags
-
 ![](show_and_hide/09.gif)
+
+## Adding tags
 
 Now we need to select root node and add it to `showable` group with some tags.
 Tags are special types of groups that names will be auto converted at runtime.
