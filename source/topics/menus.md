@@ -31,11 +31,12 @@ var choice = menu([
 
 ```gdscript
 # continuation of the previous script
-if cond(choice == 1):
-  say(null, "You choose First choice")
-
-elif cond(choice == 2):
-  say(null, "You choose Second choice")
+match choice:
+  "a":
+    say(null, "You choose First choice")
+    
+  "b":
+    say(null, "You choose Second choice")
 
 say (null , "Choose another option.")
 var choice = menu([

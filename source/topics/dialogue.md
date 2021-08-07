@@ -83,14 +83,10 @@ func first_dialogue():
 
   var player_name = ask("", {"placeholder": "Player Name"})
 
-  if cond(player_name != null):
+  if player_name != null:
     player_ch.name = player_name
 
   step()
-```
-
-```{note}
-What is `cond()` is explained [here](variables_and_conditions/#conditions).
 ```
 
 This code give us this result in visual novel template:
